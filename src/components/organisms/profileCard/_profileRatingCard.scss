@@ -1,0 +1,41 @@
+@import "../../../assets/sass/core";
+.profile-rating {
+    background-color: #FFF;
+    margin-bottom: 10px;
+    .col-3 {
+        padding-left: 1.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+
+    }
+    .col-9 {
+        align-items: center;
+        padding: 1.5rem 0;
+      // display: flex;
+      // display:inline-flexbox;
+    }
+    .profile__name {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 4px;
+        flex-direction: row;
+        width: '100%';
+    }
+    .title {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #6D7175;
+        flex-direction: row;
+        width: '100%';
+    }
+    .body {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 0px;
+        flex-direction: row;
+        width: '100%';
+    }
+}

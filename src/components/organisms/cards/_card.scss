@@ -1,0 +1,47 @@
+@import "../../../assets/sass/core";
+.article-card {
+	.card {
+		border: none;
+		.card-img-top {
+			height: 128px;
+			width: 100%;
+			object-fit: cover;
+		}
+		a {
+			text-decoration: none !important;
+		}
+		.card-body {
+			background-color: $white;
+			padding: 1rem;
+			.card-title {
+				font-size: 1rem;
+				line-height: 1.5;
+				font-weight: 600;
+				margin-bottom: 1rem;
+			}
+			.author {
+				font-size: 12px;
+				display: flex;
+				align-items: center;
+				margin: {
+					bottom: 1rem;
+				}
+				.avatar {
+					width: 24px;
+					height: 24px;
+					border-radius: 100%;
+					background-color: $gray-500;
+					margin-right: 8px;
+				}
+				.name {
+					color: $textSecondary;
+				}
+			}
+			.card-text {
+				color: $gray;
+				font-size: 12px;
+				line-height: 1.33;
+			}
+		}
+	}
+}

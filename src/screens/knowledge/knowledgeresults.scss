@@ -1,0 +1,59 @@
+@import "../../assets/sass/core";
+
+.discovery-knowlege-search{
+    .search-area{
+        background-color: $white;
+        padding: {
+            top: 32px;
+            bottom: 32px;
+        };
+    }
+    .page-banner{
+        background-color: $secondary-light;
+        padding: {
+            top: 24px;
+            bottom: 24px;
+        };
+        .banner-image{
+            width: 121px;
+        }
+        .banner-content{
+            display: flex;
+            align-items: center;
+            .banner-image{
+                margin-right: 28px;
+            }
+            .content{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                h6{
+                    font-size: 16px;
+                font-weight: 600;
+                margin-bottom:  5px;
+                }
+                p{
+                    margin-bottom: 0;
+                    font-size: 12px;
+                }
+            }
+        }
+        
+        .banner-sidebar{
+            .btn.btn-outline-light {
+                background-color: transparent;
+                border: 1px solid $gray;
+                &:hover{
+                    background-color: darken($secondary-light, 5%);
+                }
+                i{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+.top-buffer {
+    margin-bottom: 1.5rem;
+}

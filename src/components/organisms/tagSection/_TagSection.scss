@@ -1,0 +1,17 @@
+@import "../../../assets/sass/_core.scss";
+.tag-section {
+  background-color: $white;
+  .badge-list {
+    .badge {
+      &.bg-white {
+        background-color: $white;
+        border: 1px solid $green-300;
+        border-radius: 4px;
+        padding: {
+          left: 1rem;
+          right: 1rem;
+        };
+      }
+    }
+  }
+}

@@ -1,0 +1,168 @@
+@import "../../assets/sass/core";
+
+.create-entity {
+  .card {
+    &.full-page {
+      > .card-body {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        h1 {
+          font-size: 16px;
+          font-weight: 600;
+          margin-bottom: 0;
+        }
+        .create-entity-form {
+          display: flex;
+          flex-direction: column;
+          gap: 0.825rem;
+          .form-group {
+            .form-check {
+              .form-check-label {
+                max-width: 100%;
+                a {
+                  color: $secondary;
+                }
+              }
+            }
+            .input-group {
+              .input-group-text {
+                background-color: $white;
+                border-right: none;
+                padding-right: 0;
+                color: $gray-600;
+              }
+              .form-control {
+                border-left: none;
+                border-bottom-right-radius: 4px;
+                border-top-right-radius: 4px;
+              }
+              &.entity-url {
+                .fa-question-circle {
+                  color: $gray-600;
+                  position: absolute;
+                  right: 6px;
+                  top: 9px;
+                  font-size: 16px;
+                  z-index: 999;
+                  cursor: pointer;
+                }
+              }
+            }
+            .badge-group {
+              display: flex;
+              gap: 0.25rem;
+              padding-top: 0.25rem;
+              flex-wrap: wrap;
+              .badge {
+                background-color: $gray-500;
+                font-size: 12px;
+                color: $primary;
+                padding: 5px 8px;
+                margin-bottom: 0;
+                margin-right: 5px;
+                i.fal {
+                  font-size: 12px;
+                  margin-left: 5px;
+                }
+                > .btn.btn-link {
+                  font-size: 12px;
+                  padding: 4px 4px 4px 0;
+                  i.fal {
+                    font-size: 12px;
+                    margin-left: 10px;
+                  }
+                }
+              }
+            }
+          }
+          .form-action {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 1.5rem;
+          }
+          .file-uploader.is-invalid {
+            border: dashed 1px red;
+          }
+        }
+      }
+    }
+    &.entity-preview {
+      padding-bottom: 0;
+      --bs-card-spacer-x: 1.5rem;
+      --bs-card-spacer-y: 1.5rem;
+      .cover-image {
+        width: 100%;
+        height: 100px;
+        position: relative;
+        background-color: $light;
+        > img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          overflow: hidden;
+        }
+        .entity-logo {
+          width: 100px;
+          height: 100px;
+          border-radius: 2px;
+          background-color: $lightest;
+          border: 1px solid $gray-border;
+          position: absolute;
+          left: var(--bs-card-spacer-x);
+          bottom: calc(var(--bs-card-spacer-y) * -1);
+          overflow: hidden;
+          > img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+      .card-body {
+        padding: {
+          top: calc(var(--bs-card-spacer-y) + 1rem);
+        }
+        h5 {
+          font-weight: 600;
+          font-size: 16px;
+          margin-bottom: 0;
+        }
+        h6 {
+          font-size: 14px;
+          font-weight: 400;
+          margin-bottom: 1rem;
+          margin-top: 0;
+        }
+        p {
+          font-size: 12px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+.error-industry {
+  padding: 0;
+  margin: .5rem 0;
+  color: #d82c0d;
+}
+.is-invalid {
+  .css-13cymwt-control,.css-13cymwt-control {
+    border: 1px solid #d82c0d;
+  }
+}
+.is-invalid-slug,.is-valid-slug {
+  font-size: 12px;
+  padding-top: 10px;
+}
+.is-invalid-slug {
+  color:#d82c0d;
+}
+.is-valid-slug {
+  color:#12975a
+}

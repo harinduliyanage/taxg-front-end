@@ -1,0 +1,41 @@
+@import "../../assets/sass/core";
+
+.faq-page {
+  form {
+    .form-control {
+      border-radius: 4px;
+      background-color: $grayLight;
+      &:before {
+        content: "\f002";
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 300;
+        left: 0;
+        top: 0;
+        position: absolute;
+      }
+    }
+    .input-group {
+      .input-group-text {
+        background-color: $grayLight;
+        border-color: $grayLight;
+      }
+
+      .search-field {
+        border-left: none;
+        border-color: $grayLight;
+        &:focus {
+          border-color: $grayLight;
+          background-color: lighten($grayLight, 3%);
+        }
+      }
+    }
+  }
+  h4 {
+    font-size: 16px;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    // border-bottom: 1px solid $secondary;
+    font-weight: 600;
+    color: $secondary;
+  }
+}

@@ -1,0 +1,43 @@
+@import "../../../assets/sass/_core.scss";
+.home-usps {
+  background-color: $white;
+  .row {
+    .usp-item {
+      position: relative;
+      padding: {
+        top: 0.5rem;
+        bottom: 0.5rem;
+      }
+      align-items: center;
+      &::before {
+        @include media-breakpoint-up(md) {
+          content: "";
+          height: 100%;
+          width: 1px;
+          background-color: $grayLight;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+      }
+      &:last-child {
+        &::before {
+          display: none;
+        }
+      }
+    }
+  }
+  .display-5 {
+    color: $secondary;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5px;
+    + p {
+      text-align: center;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 12px;
+      margin-bottom: 0;
+    }
+  }
+}

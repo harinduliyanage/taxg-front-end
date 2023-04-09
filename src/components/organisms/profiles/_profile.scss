@@ -1,0 +1,184 @@
+@import "../../../assets/sass/core";
+
+h3,
+h4 {
+  margin-bottom: 0;
+}
+
+.card {
+  &.propfile__card {
+    transition: all 250ms cubic-bezier(0.25, 0.1, 0.25, 1);
+    .card-body {
+      padding: {
+        top: 40px;
+        bottom: 30px;
+      }
+    }
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15),
+        0 0 10px 0 rgba(0, 0, 0, 0.05);
+
+      .card-body {
+        .profile__details {
+          h3.name {
+            color: $secondary;
+          }
+        }
+      }
+    }
+  }
+  &.profile-card-virticle{
+    .card-body{
+      --bs-card-spacer-y: 24px;
+      --bs-card-spacer-x: 24px;
+      .row{
+        .MuiAvatar-root {
+          margin-right: 1rem;
+        }
+        .user-details{
+          h3.name{
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+            text-transform: capitalize;
+            &::first-letter{
+              text-transform: uppercase;
+            }
+          }
+          span.tagline{
+            display: block;
+            font-size: 12px;
+            color: $gray;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+            a{
+              color: $secondary;
+              text-decoration: none;
+              &:hover{
+                text-decoration: underline;
+              }
+            }
+          }
+          .user-rating{
+            font-size: 12px;
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+            color: $gray;
+            .rating-count{
+              margin-right: 0.5rem;
+            }
+            .MuiBox-root {
+              label{
+                .MuiRating-icon{
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+          p.details{
+            font-size: 12px;
+            line-height: 16px;
+            margin-bottom: 0;
+          }
+        }
+        .card-sidebar{
+          display: flex;
+          flex-direction: column;
+          gap: 0.75rem;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+.propfile__card {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 100%;
+
+  &:nth-child(5) {
+    margin-right: 0;
+  }
+
+  .profile__details {
+    //display: flex;
+    width: 100%;
+
+    /* shadow-card
+
+Used for Card
+*/
+
+    .name {
+      font-family: "SF Pro Text";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      margin-bottom: 4px;
+    }
+
+    .title {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      margin-bottom: 18px;
+      color: #6d7175;
+    }
+
+    .details {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      color: #202223;
+    }
+  }
+}
+
+.bg__color__profile {
+  //background-color: red;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  margin-bottom: 28px;
+
+  .profile__sec {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+  }
+}
+
+.p-cus-2 {
+  padding-top: 2.5rem;
+}
+
+p.heading {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 0;
+}
+
+.link__button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1b696b;
+}
+
+.aligment {
+  text-align: right;
+}

@@ -1,0 +1,32 @@
+@import "../../../assets/sass/core";
+
+.txt {
+    font-family: $display-font-family;
+
+    &--headingH1 {
+        @extend .txt;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+
+    &--headingH2 {
+        @extend .txt;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &--headingH3 {
+        @extend .txt;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+.para_txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}

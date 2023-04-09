@@ -1,0 +1,31 @@
+.inforMessage {
+    background: #EBF9FC;
+    border: 1px solid #98C6CD;
+    border-radius: 8px;
+    padding: 20px 36px;
+    position: relative;
+    margin-top: 20px;
+
+    .btn.close {
+        position: absolute;
+        right: 1rem;
+        top: 20px;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    .inf__title {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 4px;
+    }
+
+    .inf__body {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

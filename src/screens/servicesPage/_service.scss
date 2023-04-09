@@ -1,0 +1,33 @@
+@import "../../assets/sass/core";
+
+section.services-page{
+  .card {
+    &.content-pages {
+      .card-body {
+        h1{
+          font-size: 16px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+  .alert {
+    display: flex;
+    align-items: flex-start;
+    border-color: $secondary-border;
+    i {
+      margin-right: 0.5rem;
+      margin-top: 3px;
+    }
+    strong{
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      color: $primary;
+    }
+    p {
+      color: $primary;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,146 @@
+@import "../../../assets/sass/core";
+.team-carousel, .team-list{
+  .carousel {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    margin-bottom: 1.5rem;
+        .flickity-viewport {
+        overflow: auto;
+            .flickity-slider {
+                display: flex;
+                flex-shrink: unset;
+
+                align-items: flex-start;
+                justify-content: flex-start;
+
+                .card-spacer {
+                width: 234px;
+                min-width: 234px;
+                padding-right: 20px;
+                transform: none !important;
+                display: flex;
+
+                .card-details-m1.card.person-card{
+                  flex-direction: column;
+                  border: 1px solid rgba(23, 24, 24, 0.0509803922);
+                  border-radius: 0.5rem;
+                  max-width: 217px !important;
+                  width: 33.33%;
+                  cursor: pointer;
+                  float: left;
+                  height: 290px;
+                  margin-bottom: 20px;
+                  background-color: red;
+                }
+                }
+                .card-details-m1 .card.person-card {
+                // width: 100%;
+                // background: $white;
+                // border-radius: 8px;
+                // width: 100%;
+                // border-radius: 8px;
+                // position: relative;
+                // display: inline-block;
+                // border: 1px solid $gray-900;
+                // box-shadow: none;
+                  /* display: inline-flex; */
+                &:nth-child(5) {
+                    margin-right: 0;
+                }
+                
+                
+
+                
+                }
+            }
+
+            .card.person-card{
+              .card-body {
+                padding: {
+                    left: 12px;
+                    right: 12px;
+                };
+                .person-details {
+                  width: 100%;
+    
+                  h6 {
+                  font-family: "SF Pro Text";
+                  font-style: normal;
+                  font-weight: 600;
+                  font-size: 16px;
+                  line-height: 20px;
+                  text-align: center;
+                  margin-bottom: 4px;
+                  color: $primary;
+                  }
+    
+                  .role {
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 16px;
+                  text-align: center;
+                  margin-bottom: 18px;
+                  color: $gray-600;
+                  }
+    
+                  .details {
+                  font-weight: 400;
+                  font-size: 12px;
+                  line-height: 16px;
+                  text-align: center;
+                  color: $primary;
+                  margin-bottom: 0;
+                  }
+              }
+            }
+            }
+            
+        }
+    }
+    .carousel-navigation {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.5rem;
+
+        .btn-group {
+           
+          .btn {
+            height: 36px;
+            width: 36px;
+            padding: 5px;
+            i {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+}
+
+
+.card-details-m1 .card.person-card{
+  flex-direction: column;
+  border: 1px solid rgba(23, 24, 24, 0.0509803922);
+  border-radius: 0.5rem;
+  max-width: 217px !important;
+  width: 31.33%;
+  cursor: pointer;
+  float: left;
+  height: 285px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+
+.team-carousel .flickity-viewport .flickity-slider{
+  height: 300px;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+.team-carousel .flickity-viewport .flickity-slider-nonFlow{
+  height: auto;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}

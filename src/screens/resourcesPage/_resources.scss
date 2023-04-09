@@ -1,0 +1,34 @@
+@import "../../assets/sass/core";
+
+.resources-page {
+  padding: {
+    top: 2rem;
+    bottom: 2rem;
+  }
+  .resources-list {
+    > .col {
+      display: flex;
+      .card {
+        width: 100%;
+      }
+    }
+  }
+  .card {
+    &.full-page {
+      .card-footer {
+        background-color: $white;
+        .pagination-wrapper {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          justify-content: space-between;
+          margin-top: 0;
+          .page-content {
+            font-size: 14px;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}

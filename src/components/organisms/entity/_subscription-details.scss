@@ -1,0 +1,136 @@
+@import "../../../assets/sass/core";
+.subscription-details {
+  h1 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  section {
+    h3 {
+      font-size: 16px;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+    .btn {
+      &.add-new {
+        width: 100%;
+        border: dashed 1px $gray-600;
+        background-color: $gray-800;
+        color: $gray;
+        padding: 18px 1rem;
+        color: $primary;
+        font-size: 14px;
+        .fal {
+          color: $secondary;
+          font-size: 20px;
+        }
+      }
+    }
+    .billing-address {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+  .panel-items {
+    display: flex;
+    flex-direction: column;
+    background-color: $gray-800;
+    border: 1px solid $gray-900;
+    padding: 1.5rem;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    h3 {
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 600;
+      width: 100%;
+      margin-bottom: 0;
+    }
+    h4 {
+      font-size: 12px;
+      text-transform: none;
+      font-weight: 600;
+      width: 100%;
+      margin-bottom: 0;
+    }
+    .price {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      justify-content: space-between;
+      .amount {
+        margin: {
+          left: 0;
+          right: auto;
+        }
+        font-size: 14px;
+      }
+      .panel-action {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin: {
+          left: auto;
+          right: 0;
+        }
+      }
+    }
+    .extra-info {
+      display: flex;
+      ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        gap: 10px;
+        align-items: center;
+        li {
+          padding: 0;
+          list-style: none;
+          line-height: 20px;
+          font-size: 14px;
+          i.fa-circle {
+            font-size: 6px;
+          }
+        }
+      }
+    }
+    .card-info {
+      display: flex;
+      align-items: center;
+      .credit-card {
+        display: flex;
+        align-items: center;
+        .card-icon {
+          width: auto;
+          height: 50px;
+          background-color: $white;
+          margin-right: 24px;
+        }
+        .card-details {
+          display: flex;
+          flex-direction: column;
+          .card-number {
+            font-size: 14px;
+            .badge {
+              padding: 3px 5px;
+              font-size: 12px;
+              border: 1px solid $gray-900;
+            }
+          }
+          .card-expire {
+            font-size: 12px;
+          }
+        }
+      }
+      .panel-action {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        margin: {
+          left: auto;
+          right: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+@import "../../assets/sass/core";
+.special-label {
+  display: none;
+}
+.modal {
+  &.verify-number {
+    .modal-dialog {
+      .modal-content {
+        .modal-body {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          gap: 28px;
+          h1 {
+            font-size: 26px;
+            font-weight: 400;
+            margin-bottom: 0;
+            font-family: $display-font-family;
+          }
+          span {
+            display: block;
+            max-width: 226px;
+            margin: {
+              left: auto;
+              right: auto;
+            }
+            font-size: 14px;
+          }
+          .verification-code {
+            display: flex;
+            justify-content: center;
+            .form-group {
+              display: flex;
+              gap: 12px;
+              .form-control {
+                width: 55px;
+                height: 60px;
+                font-size: 32px;
+                color: $secondary;
+                text-align: center;
+              }
+            }
+          }
+        }
+        .modal-footer {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          a {
+            &.btn-link {
+              color: $secondary;
+              margin-bottom: 0.75rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.few-more {
+  .form-container {
+    .mobile-number {
+      position: relative;
+    }
+    .react-tel-input {
+      + .verified {
+        color: $textSecondary;
+        position: absolute;
+        right: 12px;
+        bottom: 16px;
+        width: 16px;
+        height: 16px;
+        z-index: 3;
+        font-size: 20px;
+      }
+    }
+    .form-select {
+      padding-right: 2rem;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+  }
+}

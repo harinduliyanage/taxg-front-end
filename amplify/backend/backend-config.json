@@ -1,0 +1,11 @@
+{
+  "auth": {
+    "webportalsp32de9b599": {
+      "service": "Cognito",
+      "serviceType": "imported",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}

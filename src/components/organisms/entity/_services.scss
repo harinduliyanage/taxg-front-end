@@ -1,0 +1,18 @@
+@import "../../../assets/sass/core";
+
+.accordion {
+  .accordion-item {
+    border-bottom: 1px solid $gray-border;
+    .accordion-header {
+      .accordion-button {
+        font-weight: 600;
+        &:after {
+          transform-origin: center;
+        }
+      }
+    }
+    .accordion-body {
+      padding-top: 0;
+    }
+  }
+}

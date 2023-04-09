@@ -1,0 +1,35 @@
+@import "../../../assets/sass/core";
+.gray-bg{
+  background-color: $gray-bg;
+}
+.cards-display {
+  .carousel {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    .flickity-viewport {
+      overflow: hidden;
+      .flickity-slider {
+        display: flex;
+        flex-shrink: unset;
+        //align-items: flex-start;
+        //justify-content: flex-start;
+        > .article-card {
+          width: 220px;
+          min-width: 220px;
+          transform: none !important;
+          margin-right: 1rem;
+          border-radius: 5px;
+          position: relative;
+          display: inline-block;
+          &.is-selected {
+            background: #ed2;
+          }
+          .card{
+
+          }
+        }
+      }
+    }
+  }
+}

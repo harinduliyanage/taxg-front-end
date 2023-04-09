@@ -1,0 +1,33 @@
+@import "../../../assets/sass/core";
+.gray-bg {
+  background-color: $gray-bg;
+}
+.profile-list {
+  .section-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    h3 {
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: $gray-600;
+      margin: 0;
+    }
+    .btn-group {
+      .btn {
+        height: 36px;
+        width: 36px;
+        padding: 5px;
+        i {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+.cards-display {
+  .profile-card-virticle{
+    margin-bottom: 1rem;
+  }
+}

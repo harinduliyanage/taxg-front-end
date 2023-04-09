@@ -1,0 +1,121 @@
+@import "../../assets/sass/core";
+
+.discovery-knowlege-search{
+    .search-area{
+        background-color: $white;
+        padding: {
+            top: 32px;
+            bottom: 32px;
+        };
+    }
+    
+}
+.discovery-page-banner{
+    background-color: $secondary-light;
+    padding: {
+        top: 24px;
+        bottom: 24px;
+    };
+
+    .banner-image{
+        width: 121px;
+        &.lg{
+            width: 140px;
+        }
+    }
+    .banner-content{
+        display: flex;
+        align-items: center;
+        .banner-image{
+            margin-right: 28px;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h1{
+                font-size: 26px;
+                line-height: 32px;
+                font-weight: 400;
+                margin-bottom: 5px;
+            }
+            h6{
+                font-size: 16px;
+            font-weight: 600;
+            margin-bottom:  5px;
+            }
+            h3.display-4{
+                font-size: 26px;
+                line-height: 32px;
+                font-weight: 400;
+                margin-bottom: 0;
+            }
+            p{
+                margin-bottom: 0;
+                font-size: 12px;
+                &.text-info{
+                    color: $textSecondary;
+                }
+            }
+        }
+    }
+    
+    .banner-sidebar{
+        .btn.btn-outline-light {
+            background-color: transparent;
+            border: 1px solid $gray;
+            &:hover{
+                background-color: darken($secondary-light, 5%);
+            }
+            i{
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.jumbotron-message {
+    background: #F6F6F7;
+    /* Border Neutral/Subdued */
+
+    border: 1px solid #BABFC3;
+    border-radius: 8px;
+    padding: 20px 20px 20px 36px;
+    margin-top: 24px;
+
+    h1 {
+        margin-bottom: 4px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+
+
+        /* Text/Default */
+
+        color: #202223;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 1rem;
+        /* or 143% */
+
+
+        /* Text/Default */
+
+        color: #202223;
+    }
+    .button__panel {
+        display: flex;
+        gap: 12px;
+        .btn {
+            &.btn-link {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+

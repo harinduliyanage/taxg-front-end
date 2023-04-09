@@ -1,0 +1,25 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-webportalsp3-dev-204359-authRole",
+      "UnauthRoleArn": "arn:aws:iam::568153406470:role/amplify-webportalsp3-dev-204359-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::568153406470:role/amplify-webportalsp3-dev-204359-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-webportalsp3-dev-204359-deployment",
+      "UnauthRoleName": "amplify-webportalsp3-dev-204359-unauthRole",
+      "StackName": "amplify-webportalsp3-dev-204359",
+      "StackId": "arn:aws:cloudformation:us-east-1:568153406470:stack/amplify-webportalsp3-dev-204359/27b792f0-5b8a-11ed-aee9-0a06e0bbdca9",
+      "AmplifyAppId": "d29xm8s4t68ici"
+    },
+    "categories": {
+      "auth": {
+        "webportalsp32de9b599": {
+          "userPoolId": "us-east-1_e5AK0SiHg",
+          "userPoolName": "Tax_Portal_Users",
+          "webClientId": "43cog0kj4oklmv71ump1objdle",
+          "nativeClientId": "43cog0kj4oklmv71ump1objdle"
+        }
+      }
+    }
+  }
+}

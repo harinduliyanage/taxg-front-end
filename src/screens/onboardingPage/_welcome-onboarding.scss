@@ -1,0 +1,88 @@
+@import "../../assets/sass/core";
+
+.card{
+    &.welcome-note{
+        .card-body{
+            .profile-card{
+                margin-bottom: 2rem;
+            }
+            h5{
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                margin-bottom: 0;
+            }
+            p{
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 400;
+            }
+            .row.cards-display{
+                .profile-item{
+                    border-radius: 8px;
+                    padding: 20px 22px;
+                    display: block;
+                    width: 100%;
+                    .profile-card{
+                        margin-bottom: 0;
+                        .profile-avatar{
+                            width: 48px;
+                            height: 48px;
+                        }
+                        .profile-details{
+                            h6{
+                                font-size: 18px;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                max-width: 140px;
+                            }
+                            span.role{
+                                font-size: 12px;
+                                font-weight: 400;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .card-footer{
+            justify-content: center;
+            display: flex;
+            padding: {
+                top: 1.5rem;
+                bottom: 1.5rem;
+            };
+            .btn{
+                font-size: 16px;
+                font-weight: 600;
+                display: inline-block;
+            }
+        }
+    }
+    &.text-block{
+        .card-body{
+            text-align: center;
+            img{
+                margin-bottom: 1rem;
+            }
+            h3{
+                font-size: 28px;
+                line-height: 32px;
+                font-weight: 600;
+                margin-bottom: 1rem;
+            }
+            p{
+                font-size: 14px;
+                line-height: 20px;
+                color: $gray-600;
+            }
+        }
+    }
+    .keyword-list{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+}

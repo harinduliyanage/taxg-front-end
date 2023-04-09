@@ -1,0 +1,203 @@
+@import "../../../assets/sass/core";
+
+.search-open {
+    @include media-breakpoint-up(md) {
+        display: none !important;
+    }
+
+    &[data-search=true] {
+        display: none !important;
+    }
+}
+
+.global-search {
+    width: 0;
+    left: 0;
+    top: 0;
+
+    &:not(.fixed-search) {
+        visibility: hidden;
+        overflow: hidden;
+
+        @include media-breakpoint-up(md) {
+            visibility: visible;
+            width: 280px;
+        }
+
+        @include media-breakpoint-up(lg) {
+            width: 230px;
+        }
+
+        .search-wrapper {
+            .input-field {
+                width: 0;
+
+                @include media-breakpoint-up(md) {
+                    width: 280px;
+                }
+
+                @include media-breakpoint-up(lg) {
+                    width: 230px;
+                }
+            }
+        }
+    }
+
+    &.fixed-search {
+        visibility: visible;
+        display: block;
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+        background-color: $white;
+        left: 0;
+        top: 0;
+
+        &:before {
+            content: '';
+            background-color: rgba(0, 0, 0, 0.2);
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -4;
+            mix-blend-mode: difference;
+        }
+
+        .search-wrapper {
+
+            max-width: calc(100vw - 32px);
+            height: 72px;
+
+            margin: {
+                left: auto;
+                right: auto;
+            }
+
+            ;
+
+            padding-top: 10px;
+
+
+
+            @include media-breakpoint-up(lg) {
+                max-width: 1156px;
+                height: 55px;
+            }
+
+            .input-field {
+                width: 100%;
+
+                .search-icon {
+                    left: 8px;
+                    top: 17px;
+
+                }
+
+                .form-control {
+                    border: 2px solid $darkGreen;
+                }
+            }
+        }
+    }
+
+    .search-wrapper {
+        position: relative;
+        width: 100%;
+
+        .input-field {
+            width: 280px;
+            transition: width 300ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+            transform-origin: center;
+
+            @include media-breakpoint-down(lg) {
+                width: 230px;
+            }
+
+            @include media-breakpoint-down(sm) {
+                width: 160px;
+            }
+
+
+
+            .search-icon {
+                position: absolute;
+                left: 8px;
+                top: 6px;
+                color: $gray-dark;
+            }
+
+            .form-control {
+                background-color: $gray-200;
+                border: none;
+                padding-left: 2rem;
+
+                &::placeholder {
+                    color: $gray-600;
+                }
+            }
+        }
+
+        .search-note {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background-color: $white;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.15);
+            padding: 32px 40px;
+            border-radius: 0 0 8px 8px;
+            visibility: hidden;
+            opacity: 0;
+            max-height: 0;
+
+            &[data-search=true] {
+                animation: searchDetails 500ms ease forwards;
+                animation-delay: 300ms;
+
+            }
+
+            h3 {
+                font-size: 16px;
+                font-weight: 600;
+                color: $secondary;
+                font-family: $font-family-base;
+                margin-bottom: 1rem;
+                line-height: 24px;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 400;
+                margin-bottom: 1rem;
+            }
+
+            h6 {
+                font-size: 12px;
+                font-weight: 400;
+                font-family: $font-family-base;
+                margin-bottom: 0;
+            }
+
+            ul {
+                padding: 0;
+
+                li {
+                    list-style: none;
+                    padding: 0;
+                    font-size: 14px;
+                    line-height: 24px;
+                    text-decoration: underline;
+                }
+            }
+
+            .search-info-image {
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+            }
+        }
+    }
+}

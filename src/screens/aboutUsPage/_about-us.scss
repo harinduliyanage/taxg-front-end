@@ -1,0 +1,16 @@
+@import "../../assets/sass/core";
+section {
+  width: 100%;
+
+  &.about-us {
+    .card {
+      &.content-pages {
+        text-align: center;
+
+        .card-body {
+          gap: 40px;
+        }
+      }
+    }
+  }
+}

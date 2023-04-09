@@ -1,0 +1,72 @@
+@import "../../../assets/sass/core";
+
+.btn-outline-light.btn__primary_outline {
+    //border: 1px solid #ccc;
+    background-color: #F6F6F7;
+}
+.btn-link.btn__primary_link {
+    padding: 8px;
+    text-decoration: underline;
+    color: #202223;
+}
+.MuiButton-outlined.danger {
+    border: 1px solid $danger;
+    color: $danger;
+    text-transform: capitalize;
+    &:hover {
+        background-color: $light;
+     }
+}
+.MuiButton-outlined.default__border {
+     border: 1px solid $border-natural;
+     color: $primary;
+     text-transform: capitalize;
+     &:hover {
+        background-color: $light;
+     }
+ }
+ .MuiButton-contained.default__button {
+    background-color: $dark;
+    color: $white;
+    text-transform: capitalize;
+    &:hover {
+        background-color: $light;
+     }
+ }
+ .MuiButton-contained.default__warning {
+    background-color: $warning  ;
+    color: $primary;
+    text-transform: capitalize;
+    box-shadow: none;
+    min-width: auto;
+    &:hover {
+        background-color: $light;
+     }
+ }
+ .MuiButton-contained.default__success {
+    background-color: $success  ;
+    min-width: auto;
+    color: $primary;
+    text-transform: capitalize;
+    box-shadow: none;
+    &:hover {
+        background-color: $light;
+     }
+ }
+ .MuiButton-contained.action__button {
+    background-color: $label-color  ;
+    min-width: auto;
+    color: $text-green;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 12px;
+    box-shadow: none;
+    &:hover {
+        background-color: $light;
+     }
+ }
+ .MuiButton-outlined.icon__buttonCus {
+    border: 1px solid $border-natural;
+    color: $primary;
+    text-transform: capitalize;
+ }

@@ -1,0 +1,53 @@
+@import "../../assets/sass/core";
+
+.main-banner {
+  text-align: center;
+  padding: {
+    top: 3rem;
+    bottom: 4.2rem;
+  }
+  background-color: $white;
+  h1 {
+    font-size: 28px;
+    line-height: 1.14;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: normal;
+    color: $gray-600;
+    margin-bottom: 3rem;
+  }
+}
+.get-start {
+  display: flex;
+  justify-content: center;
+  .start-form {
+    width: 100%;
+    max-width: 491px;
+    .form-control {
+      padding: {
+        top: 0.75rem;
+        bottom: 0.75rem;
+      }
+    }
+    .btn {
+      width: 100%;
+      @include media-breakpoint-up(md) {
+        width: auto;
+        padding: {
+          left: 1rem;
+          right: 1rem;
+        };
+      }
+      > span {
+        display: none;
+        //white-space: nowrap;
+        @include media-breakpoint-up(sm) {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

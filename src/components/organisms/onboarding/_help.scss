@@ -1,0 +1,17 @@
+.modal{
+  &.help-modal{
+    .modal-content{
+      .modal-header{
+        padding: {
+          top: 2rem;
+          bottom: 1rem;
+        };
+        border-bottom: none;
+      }
+      .modal-body{
+        padding-top: 0;
+      }
+    }
+
+  }
+}

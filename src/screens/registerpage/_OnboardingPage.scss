@@ -1,0 +1,140 @@
+@import "../../assets/sass/core";
+.onboarding-page {
+  text-align: center;
+  background-color: $gray-bg;
+  .roll-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  h1 {
+    font-size: 28px;
+    line-height: 1.14;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 3rem;
+    font-family: $display-font-family;
+    font-weight: 400;
+  }
+  p {
+    font-size: 14px;
+  }
+  .btn-link {
+    color: $secondary;
+    padding: {
+      left: 0;
+      right: 0;
+    }
+  }
+
+  .role-selection {
+    justify-content: center;
+    max-width: 400px;
+    width: 100%;
+    .list-group {
+      .list-group-item {
+        border: none;
+        background-color: transparent;
+        width: 100%;
+        .btn {
+          width: 100%;
+        }
+      }
+    }
+    .role {
+      margin-top: 10px;
+      width: 400px;
+      height: 48px;
+      background-color: #fff;
+    }
+  }
+  .card {
+    &.single-page {
+      text-align: left;
+      .card-header {
+        background-color: $white;
+        border-bottom: 1px solid $gray-500;
+        .back-nav {
+          .btn-link {
+            color: $primary;
+            i {
+              margin-right: 0.5rem;
+              margin-left: 0;
+            }
+            &:hover {
+              color: $secondary;
+            }
+          }
+        }
+        h1 {
+          font-size: 1.75rem;
+          margin-bottom: 6px;
+          line-height: 1.5;
+          font-weight: 600;
+        }
+        p {
+          font-size: 14px;
+          margin-bottom: 0;
+        }
+      }
+      .card-body {
+        hr {
+          margin: 0;
+          position: absolute;
+          width: 100%;
+          border-top: 1px solid $gray-500;
+          opacity: 1;
+          left: 0;
+        }
+      }
+      .form-group {
+        h5 {
+          display: block;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 1.25;
+          margin-bottom: 0.5rem;
+          font-family: $font-family-base;
+        }
+        .form-check {
+          font-size: 14px;
+        }
+        .badge-group {
+          margin-top: 0.5rem;
+          flex-wrap: wrap;
+          .badge {
+            margin-right: 0.25rem;
+            &.bg-gray-500 {
+              background-color: $gray-500;
+              color: $primary;
+              i {
+                color: $primary;
+                margin-left: 0.5rem;
+              }
+            }
+          }
+        }
+        + hr {
+          margin-top: -1.25rem;
+        }
+      }
+      .alert {
+        display: flex;
+        align-items: flex-start;
+        i {
+          margin-right: 0.5rem;
+          margin-top: 3px;
+        }
+        p {
+          color: $primary;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.modal {
+	width: 100%;
+	.modal-dialog {
+		.modal-body {
+			.form-layout {
+				display: flex;
+				flex-direction: column;
+				gap: 28px;
+				h3 {
+					font-size: 1rem;
+					font-weight: 600;
+				}
+			}
+		}
+		.modal-footer {
+			border-top: none;
+			padding: {
+				top: 0;
+			}
+			justify-content: flex-start;
+		}
+	}
+	.invalid-feedback {
+		text-align: left;
+		color: #d82c0d;
+		font-family: "SF Pro Text", "Raleway", sans-serif;
+		font-size: 14px;
+		//position: absolute;
+		top: calc(100% - 10px);
+		display: block;
+		padding-top: 10px;
+	}
+}

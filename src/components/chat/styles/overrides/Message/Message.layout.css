@@ -1,0 +1,31 @@
+.str-chat__message--deleted:not(.str-chat__message-simple--me){
+    margin-inline-start: var(--str-chat__spacing-10)
+}
+
+.str-chat__message-simple:hover .str-chat__message-simple__actions__action--thread,
+.str-chat__message-simple:hover .str-chat__message-simple__actions__action--reactions,
+.str-chat__message-simple:hover .str-chat__message-simple__actions__action--options {
+    /*
+     * There is a rule which hides all actions on hover for screens < 960px wide.
+     * Here we override that behavior by explicitly enabling hover for all screen sizes.
+     * See: https://github.com/GetStream/stream-chat-react/issues/1641
+     */
+    display: flex;
+}
+
+/* .str-chat__message--system {
+    padding: 20px;
+}
+
+.str-chat__message-simple-status {
+    margin-left: -17px;
+} */
+
+
+
+/* .chat-window .str-chat.messaging .str-chat__container .str-chat__main-panel .str-chat__list .str-chat__ul .str-chat__li .str-chat__message .str-chat__avatar{
+    display: none;
+} */
+.str-chat__avatar-fallback{
+    display: none;
+}

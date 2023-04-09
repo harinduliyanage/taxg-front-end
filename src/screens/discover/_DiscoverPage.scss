@@ -1,0 +1,238 @@
+@import "../../assets/sass/core";
+
+p.para {
+  padding: 1.25rem 0;
+  margin-bottom: 0;
+}
+
+.p-cus-1 {
+  padding: 5rem 0;
+}
+
+.categories .mui__chip {
+  border-radius: 4px;
+  background: $gray-500;
+  margin-right: 8px;
+  margin-bottom: 8px;
+
+  span {
+    padding: 4px 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: capitalize;
+    font-family: $font-family-base;
+    color: $primary;
+  }
+}
+
+.filters-panel {
+  h3.heading {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 20px;
+  }
+}
+
+.results-panel {
+  .profile-rating {
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.15);
+    min-width: 148px;
+
+    .profile__name {
+      margin-bottom: 2px;
+    }
+
+    .title {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.pagination-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.get-start {
+  display: flex;
+  justify-content: center;
+
+  .start-form {
+    width: 100%;
+    max-width: 491px;
+
+    .form-control {
+      padding: {
+        top: 0.75rem;
+        bottom: 0.75rem;
+      }
+    }
+
+    .btn {
+      width: 100%;
+
+      @include media-breakpoint-up(md) {
+        width: auto;
+      }
+
+      > span {
+        display: none;
+
+        //white-space: nowrap;
+        @include media-breakpoint-up(sm) {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+//Discover Page 2
+
+.p-cus-3 {
+  padding: 2rem 0;
+}
+
+//Discover Page 3
+
+.share__section {
+  //margin:  0 24px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.05), 0px 1px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 1.25rem;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.heading__cus {
+  color: #347c84;
+  font-weight: 400;
+  margin-bottom: 12px;
+  padding: 0;
+}
+
+h3.heading__cus2 {
+  color: #007b5c;
+  font-weight: bold;
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+.share__section {
+  .moreAnswers {
+    border-bottom: 1px solid #ccc;
+  }
+
+  .moreAnswers:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.moreAnswers,
+.suggested__Answers {
+  padding-bottom: 20px;
+  margin: 0;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.suggested__Answers {
+  margin-bottom: 0;
+}
+
+.More__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #302b6e;
+  margin-left: 12px;
+  text-decoration: none;
+}
+
+.like__answer {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 0;
+}
+
+h2.heading__cus_disc {
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #6d7175;
+  font-weight: 600;
+  padding-left: 0;
+}
+
+.like__answer .css-1kc3inn-MuiButtonBase-root-MuiButton-root {
+  border: 1px solid #babfc3;
+}
+
+.discover-viewall {
+  .hero-banner {
+    background-color: $success-light;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid $gray-900;
+
+    .hero-details {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      padding: {
+        top: 2rem;
+        bottom: 2rem;
+      }
+
+      h1 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        margin-right: 52px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.card {
+  &.discover-suggestions {
+    .card-body {
+      --bs-card-spacer-y: 24px;
+      --bs-card-spacer-x: 24px;
+      > h2 {
+        font-size: 14px;
+        font-weight: 400;
+        color: $secondary;
+        margin: 0 0 20px 0;
+        &::first-letter {
+          text-transform: capitalize;
+        }
+      }
+      > h3 {
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $gray-600;
+        margin: 0 0 20px 0;
+      }
+      .moreAnswers {
+        h3 {
+          font-size: 14px;
+          line-height: 24px;
+          font-weight: 600;
+          text-transform: none;
+          color: $secondary;
+        }
+      }
+    }
+  }
+}
