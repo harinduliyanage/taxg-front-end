@@ -1,16 +1,20 @@
-import Button from "react-bootstrap/Button";
-import Col from "react-bootstrap/Col";
-import Form from "react-bootstrap/Form";
-import Row from "react-bootstrap/Row";
+// import Button from "react-bootstrap/Button";
+// import Col from "react-bootstrap/Col";
+// import Form from "react-bootstrap/Form";
+// import Row from "react-bootstrap/Row";
 import PageTemplate from "../templates/PageTemplate";
-import Container from "react-bootstrap/Container";
-import HomeGrid from "../../components/organisms/grids/HomeGrid";
-import ExpertCardSection from "../../components/organisms/expertcardsection/ExpertCardSection";
-import TagSection from "../../components/organisms/tagSection/TagSection";
+import mockup from "../../assets/images/mock-up1.png";
+import arrow from "../../assets/images/arrow-right.png";
+import add from "../../assets/images/add.png";
+// import Container from "react-bootstrap/Container";
+// import HomeGrid from "../../components/organisms/grids/HomeGrid";
+// import ExpertCardSection from "../../components/organisms/expertcardsection/ExpertCardSection";
+// import TagSection from "../../components/organisms/tagSection/TagSection";
 import "./_HomePage.scss";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import SEO from "../../components/organisms/seo/SEO";
+
 
 function HomePage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -36,8 +40,57 @@ function HomePage() {
         title="TaxGlobal"
         description="TaxGlobal, Connect CPA, Tax, Tax Providers"
       />
-      <section className="main-banner">
-        <Container>
+      <section className="main-home-page">
+        <section className="section1">
+          <div className="frame1">
+            <h2 className="frame1-text1">
+              <b>One platform</b> for Everything Tax-Related
+            </h2>
+            <h6 className="frame1-text2">
+              Whether you're a CPA or looking for one, get your tax questions
+              answered, match with CPAs through our proprietary AI algorithm,
+              and find all the tax-related info you need to keep your clients
+              happy and thriving.
+            </h6>
+            <div className="inner-frame">
+              <div className="button-div1">
+                <div className="button-div2">
+                  <h6 className="button-text">Get Started</h6>
+                  <img src={arrow} alt="mySvgImage" className="button-image" />
+                </div>
+              </div>
+
+              <div></div>
+            </div>
+          </div>
+          <img alt="mock-ups" className="mock-ups" src={mockup} />
+          <div className="destination">
+            <div className="frame130">
+              <h2 className="frame130-text1">
+                №1 Destination for Everything Taxes
+              </h2>
+            </div>
+            <div className="frame155">
+              <div className="frame23">
+                <h2 className="frame23-text1">90,000</h2>
+                <h6 className="frame23-text2">
+                  Tax/Accounting Firms in the USA
+                </h6>
+              </div>
+              <div className="frame24">
+                <div className="frame26">
+                  <h2 className="frame26-text1">665,000</h2>
+                  <div className="frame25">
+                    <img src={add} className="add-icon" alt="add" />
+                  </div>
+                </div>
+                <h6 className="frame24-text1">Licensed CPAs in the USA</h6>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="bg-frame"></section>
+        {/* <Container>
           <h1>Welcome to your tax community</h1>
           <h3>We bring AI powered personalized services for you</h3>
           <div className="get-start">
@@ -77,11 +130,11 @@ function HomePage() {
               </Row>
             </Form>
           </div>
-        </Container>
+        </Container> */}
       </section>
-      <HomeGrid />
+      {/* <HomeGrid />
       <ExpertCardSection />
-      <TagSection />
+      <TagSection /> */}
     </PageTemplate>
   );
 }
