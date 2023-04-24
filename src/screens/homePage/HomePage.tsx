@@ -64,7 +64,9 @@ function HomePage() {
             </div>
           </div>
           <img alt="mock-ups" className="mock-ups" src={mockup} />
-          <div className="destination">
+        </section>
+        <div className="bg-frame">
+        <div className="destination">
             <div className="frame130">
               <h2 className="frame130-text1">
                 №1 Destination for Everything Taxes
@@ -88,8 +90,7 @@ function HomePage() {
               </div>
             </div>
           </div>
-        </section>
-        <section className="bg-frame"></section>
+        </div>    
         {/* <Container>
           <h1>Welcome to your tax community</h1>
           <h3>We bring AI powered personalized services for you</h3>
