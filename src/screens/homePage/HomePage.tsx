@@ -6,6 +6,8 @@ import PageTemplate from "../templates/PageTemplate";
 import mockup from "../../assets/images/mock-up1.png";
 import arrow from "../../assets/images/arrow-right.png";
 import add from "../../assets/images/add.png";
+import quote from "../../assets/images/quote.png";
+import frame9 from "../../assets/images/frame9.png";
 // import Container from "react-bootstrap/Container";
 // import HomeGrid from "../../components/organisms/grids/HomeGrid";
 // import ExpertCardSection from "../../components/organisms/expertcardsection/ExpertCardSection";
@@ -14,7 +16,6 @@ import "./_HomePage.scss";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import SEO from "../../components/organisms/seo/SEO";
-
 
 function HomePage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -66,7 +67,7 @@ function HomePage() {
           <img alt="mock-ups" className="mock-ups" src={mockup} />
         </section>
         <div className="bg-frame">
-        <div className="destination">
+          <div className="destination">
             <div className="frame130">
               <h2 className="frame130-text1">
                 №1 Destination for Everything Taxes
@@ -90,7 +91,37 @@ function HomePage() {
               </div>
             </div>
           </div>
-        </div>    
+          <div className="blobs">
+            <div className="blob1" />
+            <div className="blob2" />
+            <div className="blob3" />
+            <div className="blob4" />
+            <div className="blob5" />
+            <div className="blob6" />
+            <div className="blob7" />
+            <div className="blob8" />
+            <div className="frames">
+              <div className="frame133"></div>
+              <div className="frame27">
+                <h6 className="frame27-text1">
+                  {" "}
+                  <b>Our Mission:</b>
+                  Be the only destination for all your tax needs globally
+                </h6>
+                <h6 className="frame27-text1"> Mission</h6>
+              </div>
+              <div className="frame81"></div>
+              <div className="frame9"></div>
+
+              <div className="frame132">
+                <img alt="quote" className="frame132-icon" src={quote} />
+                <h2 className="frame132-text1">
+                  One-Stop Shop for All Your Tax Needs
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
         {/* <Container>
           <h1>Welcome to your tax community</h1>
           <h3>We bring AI powered personalized services for you</h3>
@@ -133,6 +164,7 @@ function HomePage() {
           </div>
         </Container> */}
       </section>
+      <section className="screen2"></section>
       {/* <HomeGrid />
       <ExpertCardSection />
       <TagSection /> */}
