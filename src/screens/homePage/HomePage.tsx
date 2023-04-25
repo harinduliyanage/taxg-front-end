@@ -101,10 +101,15 @@ function HomePage() {
             <div className="blob7" />
             <div className="blob8" />
             <div className="frames">
-              <div className="frame133"></div>
+              <div className="frame133">
+                <text className="frame133-text2">Vision</text>
+                <h6 className="frame133-text1">
+                  Our Vision: Connect every individual to the right tax expert,
+                  creating success for both
+                </h6>
+              </div>
               <div className="frame27">
                 <h6 className="frame27-text1">
-                  {" "}
                   <b>Our Mission:</b>
                   Be the only destination for all your tax needs globally
                 </h6>
@@ -164,7 +169,15 @@ function HomePage() {
           </div>
         </Container> */}
       </section>
-      <section className="screen2"></section>
+      <section className="screen2">
+        <h2 className="find-text">
+          Find Your <b>Ideal Tax Partner</b> in Minutes...
+        </h2>
+        <div className="frame29"></div>
+        <div className="frame31"></div>
+        <div className="frame32"></div>
+        <div className="profiles"></div>
+      </section>
       {/* <HomeGrid />
       <ExpertCardSection />
       <TagSection /> */}

@@ -41,7 +41,7 @@
   top: 1650px;
   z-index: 10;
   background: #ebf0ef;
-  transform: matrix(1, 0, 0, -1, 0, 0);
+  // transform: matrix(1, 0, 0, -1, 0, 0);
   background-image: url("../../assets/images/screen2.png");
 }
 
@@ -142,11 +142,9 @@
   left: -10px;
   top: 0px;
 
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.3) 0%,
-    rgba(255, 255, 255, 0.3) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0.3) 100%);
   backdrop-filter: blur(2px);
   /* Note: backdrop-filter has minimal browser support */
 
@@ -554,14 +552,67 @@
   width: 440px;
   height: 231px;
   left: 550px;
-  top: 50px;
-
+  top: 90px;
+  z-index: 1000;
   background: #ffffff;
   /* Shadow1 */
 
   box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
     0px 10px 20px rgba(0, 0, 0, 0.03);
   border-radius: 25px 0px 25px 25px;
+}
+
+.frame133-text1 {
+  position: relative;
+  width: 240px;
+  height: 121px;
+  left: 90px;
+  top: 55px;
+
+  /* Body2/Normal */
+
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: -0.01em;
+
+  /* Foundation /Violet/Normal */
+
+  color: #302D6D;
+
+}
+
+.frame133-text2 {
+  position: absolute;
+  width: 347px;
+  height: 68px;
+  left: 123px;
+  top: -40px;
+
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 100px;
+  /* or 104% */
+
+  /* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+  leading-trim: both;
+  text-edge: cap;
+  color: #EAEAF0;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  /* Foundation /Violet/Light */
+
+  // border: 1px solid #EAEAF0;
 }
 
 .frame132 {
@@ -688,4 +739,78 @@
   box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
     0px 10px 20px rgba(0, 0, 0, 0.03);
   border-radius: 25px 25px 0px 25px;
+}
+
+.find-text {
+  position: absolute;
+  width: 530px;
+  height: 108px;
+  left: 310px;
+  top: 261px;
+
+  /* H2/Heavy */
+
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 54px;
+  /* or 112% */
+
+  letter-spacing: -0.02em;
+
+  /* Foundation /Violet/Darker */
+
+  color: #111026;
+}
+
+.frame31 {
+  position: absolute;
+  width: 420px;
+  height: 231px;
+  left: 1190px;
+  top: 519px;
+
+  background: #FFFFFF;
+  /* Shadow1 */
+
+  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 25px;
+}
+
+.frame32 {
+  position: absolute;
+  width: 420px;
+  height: 231px;
+  left: 750px;
+  top: 554px;
+
+  background: #FFFFFF;
+  /* Shadow1 */
+
+  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 25px;
+}
+
+.frame29 {
+  position: absolute;
+  width: 420px;
+  height: 207px;
+  left: 310px;
+  top: 613px;
+
+  background: #FFFFFF;
+  /* Shadow1 */
+
+  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 25px;
+}
+
+.profiles {
+  position: absolute;
+  width: 1450px;
+  height: 671px;
+  left: 310px;
+  top: 841px;
+  background-image: url("../../assets/images/profiles.png");
 }
