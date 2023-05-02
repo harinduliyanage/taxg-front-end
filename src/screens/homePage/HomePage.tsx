@@ -7,11 +7,8 @@ import mockup from "../../assets/images/mock-up1.png";
 import arrow from "../../assets/images/arrow-right.png";
 import add from "../../assets/images/add.png";
 import quote from "../../assets/images/quote.png";
-import frame9 from "../../assets/images/frame9.png";
-// import Container from "react-bootstrap/Container";
-// import HomeGrid from "../../components/organisms/grids/HomeGrid";
-// import ExpertCardSection from "../../components/organisms/expertcardsection/ExpertCardSection";
-// import TagSection from "../../components/organisms/tagSection/TagSection";
+import knowledge1 from "../../assets/images/knowledge1.png";
+import knowledge2 from "../../assets/images/knowledge2.png";
 import "./_HomePage.scss";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -21,19 +18,6 @@ function HomePage() {
   const [searchQuery, setSearchQuery] = useState("");
 
   const navigator = useNavigate();
-
-  // const onSubmitHandler = (e: any) => {
-  //   if (searchQuery.startsWith("looking for")) {
-  //     navigator(`/discover/services/results`);
-  //   } else {
-  //     navigator(`/discover/services/keyword/${searchQuery}`);
-  //   }
-  // };
-
-  const onSubmitHandler = (e: any) => {
-    e.preventDefault();
-    navigator(`/discover/services/keyword/${searchQuery}`);
-  };
 
   return (
     <PageTemplate>
@@ -127,47 +111,6 @@ function HomePage() {
             </div>
           </div>
         </div>
-        {/* <Container>
-          <h1>Welcome to your tax community</h1>
-          <h3>We bring AI powered personalized services for you</h3>
-          <div className="get-start">
-            <Form className="start-form">
-              <Row className="align-items-center g-2">
-                <Col className="col-9" md={8}>
-                  <Form.Label
-                    htmlFor="inlineFormInput"
-                    visuallyHidden
-                    type="search"
-                  >
-                    Name
-                  </Form.Label>
-                  <Form.Control
-                    id="inlineFormInput"
-                    placeholder="What kind of services are you looking for"
-                    onKeyPress={(e) => {
-                      e.key === "Enter" && onSubmitHandler(e);
-                    }}
-                    onChange={(e) => {
-                      setSearchQuery(e.target.value);
-                    }}
-                  />
-                </Col>
-                <Col className="col-3" md={4}>
-                  <Button
-                    variant="dark"
-                    type="submit"
-                    onClick={() => {
-                      navigator(`/discover/services/keyword/${searchQuery}`);
-                    }}
-                  >
-                    <span>Get started</span>
-                    <i className="fal fa-long-arrow-right"></i>
-                  </Button>
-                </Col>
-              </Row>
-            </Form>
-          </div>
-        </Container> */}
       </section>
       <section className="screen2">
         <h2 className="find-text">
@@ -196,10 +139,64 @@ function HomePage() {
         </div>
       </section>
       <div className="profiles"></div>
-      <section className="screen3"></section>
-      {/* <HomeGrid />
-      <ExpertCardSection />
-      <TagSection /> */}
+      <section className="screen3">
+        <text className="screen3-text1">
+          Get Your <b>Tax Questions</b> Answered in Seconds
+        </text>
+        <text className="questions1">Questions</text>
+        <img alt="s3-img1" src={knowledge2} className="screen3-image1" />
+        <img alt="s3-img2" src={knowledge1} className="screen3-image2" />
+        <div className="stepper1">
+          <div className="stepper1-atom1">
+            <div className="stepper-number-icon">
+              {" "}
+              <text className="stepper-number">1</text>
+            </div>
+          </div>
+          <text className="stepper1-text">
+            Learn More: See the answers given to other users who asked similar
+            questions
+          </text>
+        </div>
+        <div className="stepper2">
+          <div className="stepper2-atom1">
+            <div className="stepper-number-icon">
+              {" "}
+              <text className="stepper-number">2</text>
+            </div>
+          </div>
+          <text className="stepper2-text">
+            AI Powered Answers: We quickly scan all relevant sources to bring
+            you the most accurate, up-to-date answer
+          </text>
+        </div>
+        <div className="stepper3">
+          <div className="stepper3-atom1">
+            <div className="stepper-number-icon">
+              {" "}
+              <text className="stepper-number">3</text>
+            </div>
+          </div>
+          <text className="stepper3-text">
+            Ask Questions: Simply type in your tax-related question
+          </text>
+        </div>
+      </section>
+      <section className="screen4">
+        <text className="screen4-text2">Community</text>
+        <text className="screen4-text1">
+          <b>Join a Community</b> of Learners, Experts, and Everyone in Between
+        </text>
+        <div className="frame71">
+          <text className="frame71-text1">
+            Share Questions and Answers: Share your expertise or ask questions
+            and get them answered by like-minded professionals
+          </text>
+        </div>
+        <div className="my-feed" />
+      </section>
+      <section className="screen5"></section>
+      <section className="screen6"></section>
     </PageTemplate>
   );
 }
