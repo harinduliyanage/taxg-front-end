@@ -45,7 +45,7 @@ function HomePage() {
         <section className="section1">
           <div className="frame1">
             <h2 className="frame1-text1">
-              <b>One platform</b> for Everything Tax-Related
+              <strong>One platform</strong> for Everything Tax-Related
             </h2>
             <h6 className="frame1-text2">
               Whether you're a CPA or looking for one, get your tax questions
@@ -173,11 +173,30 @@ function HomePage() {
         <h2 className="find-text">
           Find Your <b>Ideal Tax Partner</b> in Minutes...
         </h2>
-        <div className="frame29"></div>
-        <div className="frame31"></div>
-        <div className="frame32"></div>
-        <div className="profiles"></div>
+        <div className="frame29">
+          <text className="frame29-text1">
+            {" "}
+            <b>Star Rating: </b>
+            See ratings so you can choose with confidence
+          </text>
+        </div>
+        <div className="frame31">
+          <text className="frame31-text1">
+            <b>View Profile: </b>
+            See their service offerings and experience to decide if they're
+            right for you
+          </text>
+        </div>
+        <div className="frame32">
+          <text className="frame32-text1">
+            <b>Instant Messaging: </b>
+            Connect with your chosen CPA instantly to ask questions and get
+            started
+          </text>
+        </div>
       </section>
+      <div className="profiles"></div>
+      <section className="screen3"></section>
       {/* <HomeGrid />
       <ExpertCardSection />
       <TagSection /> */}

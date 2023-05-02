@@ -52,7 +52,7 @@
   height: 670px;
   left: 953px;
   top: 160px;
-  z-index: 10000000;
+  z-index: 1000;
 }
 
 .frame1 {
@@ -64,7 +64,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 0px;
-  z-index: 1000;
+  z-index: 8000;
   position: relative;
   width: 460px;
   height: 457px;
@@ -806,11 +806,96 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   border-radius: 25px;
 }
 
+.frame29-text1 {
+  position: absolute;
+  width: 240px;
+  height: 97px;
+  left: 90px;
+  top: 55px;
+
+  /* Body2/Normal */
+
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: -0.01em;
+
+  /* Foundation /Green/Normal :active */
+
+  color: #008774;
+
+}
+
 .profiles {
   position: absolute;
   width: 1450px;
   height: 671px;
   left: 310px;
-  top: 841px;
+  top: 2441px;
+  z-index: 100;
   background-image: url("../../assets/images/profiles.png");
+}
+
+.frame32-text1 {
+  position: absolute;
+  width: 220px;
+  height: 121px;
+  left: 90px;
+  top: 55px;
+
+  /* Body2/Normal */
+
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: -0.01em;
+
+  /* Foundation /Green/Normal :active */
+
+  color: #008774;
+
+}
+
+.frame31-text1 {
+  position: absolute;
+  width: 240px;
+  height: 121px;
+  left: 90px;
+  top: 55px;
+
+  /* Body2/Normal */
+
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: -0.01em;
+
+  /* Foundation /Green/Normal :active */
+
+  color: #008774;
+}
+
+.screen3 {
+  position: absolute;
+  width: 1920px;
+  height: 1338px;
+  left: 0px;
+  top: 2600px;
+  z-index: 20;
+  background-image: url("../../assets/images/screen3.png");
+  ;
+  // background: linear-gradient(345.52deg, #FFFFFF -13.57%, #EBF0F0 79.12%);
+  // transform: matrix(1, 0, 0, -1, 0, 0);
 }
