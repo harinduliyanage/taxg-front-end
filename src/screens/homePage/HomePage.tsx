@@ -194,9 +194,73 @@ function HomePage() {
           </text>
         </div>
         <div className="my-feed" />
+        <div className="group5">
+          <text className="group5-text1">Document</text>
+          <text className="group5-text2">Management System</text>
+        </div>
       </section>
-      <section className="screen5"></section>
-      <section className="screen6"></section>
+      <div className="frame-div">
+        <div className="frame70">
+          <text className="frame70-text">
+            Quick Access: Save the service providers you work with often for
+            quick access
+          </text>
+        </div>
+        <div className="frame52">
+          <text className="frame52-text">
+            Posts and Publications: Read, share, and reply to posts from your
+            connections
+          </text>
+        </div>
+        <div className="frame69">
+          <text className="frame69-text">
+            User Profile: Create a profile to connect with other entrepreneurs,
+            CPAs, and more
+          </text>
+        </div>
+        <div className="frame72">
+          <text className="frame72-text">
+            Private Messaging: Connect with other users privately through
+            instant messaging
+          </text>
+        </div>
+        <div className="frame61">
+          <text className="frame61-text">
+            Grow Your Network: Suggested connections help you reach even more
+            professionals
+          </text>
+        </div>
+      </div>
+      <div className="safari32" />
+      <div className="frame80">
+        <div className="frame80-image" />
+      </div>
+      <section className="screen5">
+        <text className="screen5-text1">
+          <strong>CPAs and Firms,</strong> Your Moment Has Come...
+        </text>
+        <text className="screen5-text2">
+          Serving customers and storing documents is now 100% faster, easier,
+          and more secure
+        </text>
+        <text className="screen5-text3">
+          <b>Extend Your Team</b> with Off-Shore CPAs and Solve Problems Like...
+        </text>
+        <div className="frame88"></div>
+        <div className="frame148"></div>
+        <div className="frame147"></div>
+      </section>
+      <div className="frame93">
+        <text className="frame93-text">Why Tax Global?</text>
+      </div>
+      <section className="screen6">
+        <div className="update1"></div>
+        <div className="update2"></div>
+        <div className="update3"></div>
+        <div className="update4"></div>
+        <div className="update5"></div>
+        <div className="update6"></div>
+      </section>
     </PageTemplate>
   );
 }
