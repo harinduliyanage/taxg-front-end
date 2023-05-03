@@ -254,12 +254,48 @@ function HomePage() {
         <text className="frame93-text">Why Tax Global?</text>
       </div>
       <section className="screen6">
-        <div className="update1"></div>
-        <div className="update2"></div>
-        <div className="update3"></div>
-        <div className="update4"></div>
-        <div className="update5"></div>
-        <div className="update6"></div>
+        <div className="update1">
+          <div className="update1-logo" />
+          <text className="update1-text">
+            Bookkeepers to Senior Accountants: Benefit from highly experienced
+            professionals (2-5+ years)
+          </text>
+        </div>
+        <div className="update2">
+          <div className="update2-logo" />
+          <text className="update2-text">
+            Always Up-to-Date: Partner with professionals who are on top of the
+            latest market and policy changes{" "}
+          </text>
+        </div>
+        <div className="update3">
+          <div className="update3-logo" />
+          <text className="update3-text">
+            Quick Scaling: Scale your team up or down with only 30 days notice
+            required{" "}
+          </text>
+        </div>
+        <div className="update4">
+          <div className="update4-logo" />
+          <text className="update4-text">
+            Tax Policy Expertise: Add value with tax experts who specialize in
+            US tax policies and filings{" "}
+          </text>
+        </div>
+        <div className="update5">
+          <div className="update5-logo" />
+          <text className="update5-text">
+            Bookkeepers to Senior Accountants: Benefit from highly experienced
+            professionals (2-5+ years){" "}
+          </text>
+        </div>
+        <div className="update6">
+          <div className="update6-logo" />
+          <text className="update6-text">
+            Guaranteed Security: Enjoy banking-level security for business data
+            and other sensitive information{" "}
+          </text>
+        </div>
       </section>
     </PageTemplate>
   );

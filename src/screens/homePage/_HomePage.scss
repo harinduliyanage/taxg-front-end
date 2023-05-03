@@ -142,9 +142,11 @@
   left: -10px;
   top: 0px;
 
-  background: linear-gradient(180deg,
-      rgba(255, 255, 255, 0.3) 0%,
-      rgba(255, 255, 255, 0.3) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
   backdrop-filter: blur(2px);
   /* Note: backdrop-filter has minimal browser support */
 
@@ -972,7 +974,8 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   // background: url(Safari 2.jpg);
   /* Shadow1 */
 
-  filter: drop-shadow(0px 45px 119px rgba(0, 0, 0, 0.04)) drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.03));
+  filter: drop-shadow(0px 45px 119px rgba(0, 0, 0, 0.04))
+    drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.03));
   border-radius: 8px;
 }
 
@@ -987,7 +990,8 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   // background: url(Safari 3 Knowledge.jpg);
   /* Screens */
 
-  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.06)) drop-shadow(45px 45px 119px rgba(0, 0, 0, 0.09));
+  filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.06))
+    drop-shadow(45px 45px 119px rgba(0, 0, 0, 0.09));
   border-radius: 7px;
 }
 
@@ -1322,7 +1326,8 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   top: 1429px;
   z-index: 1000;
   background: url("../../assets/images/my-feed.png");
-  filter: drop-shadow(128px 109px 250px rgba(1, 0, 35, 0.16)) drop-shadow(0px 4px 24px rgba(20, 27, 41, 0.08));
+  filter: drop-shadow(128px 109px 250px rgba(1, 0, 35, 0.16))
+    drop-shadow(0px 4px 24px rgba(20, 27, 41, 0.08));
   border-radius: 8px;
 }
 
@@ -1346,7 +1351,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
   /* Body2/Normal */
 
-  font-family: 'SF Pro Text';
+  font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -1358,7 +1363,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   /* Foundation /Green/Normal :active */
 
   color: #008774;
-
 }
 
 .frame52 {
@@ -1381,7 +1385,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
   /* Body2/Normal */
 
-  font-family: 'SF Pro Text';
+  font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -1396,7 +1400,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 }
 
 .frame69 {
-
   position: absolute;
   width: 420px;
   height: 231px;
@@ -1416,7 +1419,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
   /* Body2/Normal */
 
-  font-family: 'SF Pro Text';
+  font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -1431,7 +1434,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 }
 
 .frame72 {
-
   position: absolute;
   width: 420px;
   height: 207px;
@@ -1443,7 +1445,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 }
 
 .frame72-text {
-
   position: absolute;
   width: 274px;
   height: 97px;
@@ -1452,7 +1453,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
   /* Body2/Normal */
 
-  font-family: 'SF Pro Text';
+  font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -1477,7 +1478,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 }
 
 .frame61-text {
-
   position: absolute;
   width: 248px;
   height: 97px;
@@ -1486,7 +1486,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
   /* Body2/Normal */
 
-  font-family: 'SF Pro Text';
+  font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
@@ -1521,7 +1521,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   height: 75px;
   left: 350px;
   top: 5px;
-  font-family: 'SF Pro Text';
+  font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 800;
   font-size: 86px;
@@ -1540,7 +1540,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   height: 150px;
   left: 350px;
   top: 80px;
-  font-family: 'SF Pro Text';
+  font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 800;
   font-size: 86px;
@@ -1564,12 +1564,12 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   background: url("../../assets/images/safari32.png");
   /* Shadow2 */
 
-  filter: drop-shadow(0px 45px 119px rgba(0, 0, 0, 0.04)) drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.03));
+  filter: drop-shadow(0px 45px 119px rgba(0, 0, 0, 0.04))
+    drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.03));
   border-radius: 7px;
 }
 
 .frame80 {
-
   position: absolute;
   width: 625px;
   height: 667px;
@@ -1601,7 +1601,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
   /* H2/Heavy */
 
-  font-family: 'SF Pro Text';
+  font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
@@ -1613,7 +1613,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   /* Foundation /Violet/Darker */
 
   color: #111026;
-
 }
 
 .screen5-text2 {
@@ -1625,7 +1624,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
   /* Body2/Bold */
 
-  font-family: 'SF Pro Text';
+  font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -1634,7 +1633,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
   letter-spacing: -0.01em;
 
-  color: #1D1B41;
+  color: #1d1b41;
 }
 
 .frame88 {
@@ -1660,7 +1659,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 }
 
 .frame148 {
-
   position: absolute;
   width: 650px;
   height: 754px;
@@ -1678,7 +1676,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 }
 
 .frame147 {
-
   box-sizing: border-box;
 
   position: absolute;
@@ -1698,7 +1695,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 }
 
 .screen5-text3 {
-
   position: absolute;
   width: 550px;
   height: 163px;
@@ -1707,7 +1703,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
   /* H2/Heavy */
 
-  font-family: 'SF Pro Text';
+  font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
@@ -1728,8 +1724,9 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   left: 308px;
   top: 7708px;
   z-index: 1000;
-  background: linear-gradient(322.23deg, #6B69A6 1.98%, #028B78 95.22%);
-  box-shadow: 0px 45px 119px rgba(0, 81, 116, 0.14), 0px 10px 20px rgba(0, 116, 79, 0.04);
+  background: linear-gradient(322.23deg, #6b69a6 1.98%, #028b78 95.22%);
+  box-shadow: 0px 45px 119px rgba(0, 81, 116, 0.14),
+    0px 10px 20px rgba(0, 116, 79, 0.04);
   backdrop-filter: blur(19px);
   /* Note: backdrop-filter has minimal browser support */
 
@@ -1738,7 +1735,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 }
 
 .frame93-text {
-
   position: absolute;
   width: 384px;
   height: 54px;
@@ -1747,7 +1743,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   z-index: 100000;
   /* H2/Heavy */
 
-  font-family: 'SF Pro Text';
+  font-family: "SF Pro Text";
   font-style: normal;
   font-weight: 800;
   font-size: 48px;
@@ -1756,7 +1752,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
   letter-spacing: -0.02em;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .update1 {
@@ -1766,10 +1762,11 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   left: 310px;
   top: 452px;
 
-  background: #FFFFFF;
+  background: #ffffff;
   /* Shadow1 */
 
-  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
+    0px 10px 20px rgba(0, 0, 0, 0.03);
   border-radius: 0px 25px 25px 25px;
 }
 
@@ -1780,10 +1777,11 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   left: 970px;
   top: 452px;
 
-  background: #FFFFFF;
+  background: #ffffff;
   /* Shadow1 */
 
-  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
+    0px 10px 20px rgba(0, 0, 0, 0.03);
   border-radius: 25px;
 }
 
@@ -1794,10 +1792,11 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   left: 310px;
   top: 704px;
 
-  background: #FFFFFF;
+  background: #ffffff;
   /* Shadow1 */
 
-  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
+    0px 10px 20px rgba(0, 0, 0, 0.03);
   border-radius: 25px;
 }
 
@@ -1808,10 +1807,11 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   left: 970px;
   top: 702px;
 
-  background: #FFFFFF;
+  background: #ffffff;
   /* Shadow1 */
 
-  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
+    0px 10px 20px rgba(0, 0, 0, 0.03);
   border-radius: 25px;
 }
 
@@ -1822,24 +1822,210 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   left: 310px;
   top: 944px;
 
-  background: #FFFFFF;
+  background: #ffffff;
   /* Shadow1 */
 
-  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
+    0px 10px 20px rgba(0, 0, 0, 0.03);
   border-radius: 25px;
 }
 
 .update6 {
-
   position: absolute;
   width: 640px;
   height: 220px;
   left: 970px;
   top: 942px;
 
-  background: #FFFFFF;
+  background: #ffffff;
   /* Shadow1 */
 
-  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
+    0px 10px 20px rgba(0, 0, 0, 0.03);
   border-radius: 25px;
+}
+.update1-text {
+  position: absolute;
+  width: 328px;
+  height: 97px;
+  left: 90px;
+  top: calc(50% - 97px / 2 + 0.5px);
+
+  /* Body2/Normal */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: -0.01em;
+
+  /* Foundation /Violet/Darker */
+
+  color: #111026;
+}
+.update2-text {
+  position: absolute;
+  width: 330px;
+  height: 97px;
+  left: 220px;
+  top: calc(50% - 97px / 2 + 0.5px);
+
+  /* Body2/Normal */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: -0.01em;
+
+  /* Foundation /Violet/Darker */
+
+  color: #111026;
+}
+.update3-text {
+  position: absolute;
+  width: 330px;
+  height: 97px;
+  left: 90px;
+  top: calc(50% - 97px / 2 - 0.5px);
+
+  /* Body2/Normal */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: -0.01em;
+
+  /* Foundation /Violet/Darker */
+
+  color: #111026;
+}
+.update4-text {
+  position: absolute;
+  width: 330px;
+  height: 97px;
+  left: 220px;
+  top: calc(50% - 97px / 2 - 0.5px);
+
+  /* Body2/Normal */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: -0.01em;
+
+  /* Foundation /Violet/Darker */
+
+  color: #111026;
+}
+.update5-text {
+  position: absolute;
+  width: 330px;
+  height: 97px;
+  left: 90px;
+  top: calc(50% - 97px / 2 - 0.5px);
+
+  /* Body2/Normal */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: -0.01em;
+
+  /* Foundation /Violet/Darker */
+
+  color: #111026;
+}
+.update6-text {
+  position: absolute;
+  width: 330px;
+  height: 97px;
+  left: 220px;
+  top: calc(50% - 97px / 2 - 0.5px);
+
+  /* Body2/Normal */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: -0.01em;
+
+  /* Foundation /Violet/Darker */
+
+  color: #111026;
+}
+
+.update1-logo {
+  position: absolute;
+  width: 112px;
+  height: 112px;
+  left: 438px;
+  top: calc(50% - 112px / 2);
+  background: url("../../assets/images/Review.png");
+}
+.update2-logo {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 90px;
+  top: calc(50% - 110px / 2);
+  background: url("../../assets/images/Training.png");
+}
+
+.update3-logo {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 440px;
+  top: calc(50% - 110px / 2);
+  background: url("../../assets/images/Scale.png");
+}
+
+.update4-logo {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 90px;
+  top: calc(50% - 110px / 2);
+  background: url("../../assets/images/Tax.png");
+}
+
+.update5-logo {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 440px;
+  top: calc(50% - 110px / 2);
+  background: url("../../assets/images/Team.png");
+}
+
+.update6-logo {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: 90px;
+  top: calc(50% - 110px / 2);
+  background: url("../../assets/images/Frame\ 4.png");
 }
