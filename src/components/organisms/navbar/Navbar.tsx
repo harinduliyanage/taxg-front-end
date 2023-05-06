@@ -203,14 +203,14 @@ const NavBar = () => {
                   href="/login"
                   className={location.pathname === "/login" ? "active" : ""}
                 >
-                  Sign In
+                  Log In
                 </Nav.Link>
-                <span className="link-seperator" />
+                {/* <span className="link-seperator" /> */}
                 <Nav.Link
                   href="/register"
                   className={location.pathname === "/register" ? "active" : ""}
                 >
-                  Register
+                  Sign Up
                 </Nav.Link>
               </Nav>
             </MediaQuery>
@@ -220,14 +220,14 @@ const NavBar = () => {
                   href="/login"
                   className={location.pathname === "/login" ? "active" : ""}
                 >
-                  Sign In
+                  Log In
                 </Nav.Link>
-                <span className="link-seperator" />
+                {/* <span className="link-seperator" /> */}
                 <Nav.Link
                   href="/register"
-                  className={location.pathname === "/register" ? "active" : ""}
+                  className={location.pathname === "/register" ? "active" : ""}                 
                 >
-                  Register
+                   Sign Up
                 </Nav.Link>
               </Nav>
             </MediaQuery>
@@ -287,11 +287,11 @@ const NavBar = () => {
             <Navbar.Brand href="/">
               <img src={logo} alt="" />
             </Navbar.Brand>
-            <GlobalSearch />
+            {/* <GlobalSearch /> */}
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="ms-auto">
-                <NavLinks />
+                {/* <NavLinks /> */}
 
                 <LoggedUserNav />
               </Nav>
