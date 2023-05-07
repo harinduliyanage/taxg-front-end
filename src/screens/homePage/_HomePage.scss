@@ -2,15 +2,15 @@
 
 .section1 {
   /* Section1 */
-  // position: relative;
+  position: relative;
   // height: 1888px;
   //  width: 'auto';
   //  background-size: 'contain';
   // background-repeat: no-repeat;
   // display: flex;
   // flex: 'auto';
-  order: 1;
-  height: 1888px;
+  // order: 1;
+  height: 1738px;
   background-image: url("../../assets/images/screen1.png");
 }
 
@@ -19,7 +19,7 @@
   position: relative;
   display: flex;
   // // width: 1920px;
-  // // height: 1470px;
+  height: 1470px;
   // left: 0px;
   //  top: -400px;
   // order: 2;
@@ -29,13 +29,13 @@
 }
 
 .screen2 {
-  position: absolute;
-  width: 1920px;
+  position: relative;
+  // width: 1920px;
   height: 1276px;
-  left: 0px;
-  top: 1650px;
-  z-index: 10;
-  background: #ebf0ef;
+  // left: 0px;
+  // top: 1650px;
+  // z-index: 10;
+  // background: #ebf0ef;
   // transform: matrix(1, 0, 0, -1, 0, 0);
   background-image: url("../../assets/images/screen2.png");
 }
@@ -732,8 +732,8 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
   position: relative;
   width: 880px;
-  height: 465px;
-  left: 130px;
+  // height: 465px;
+  // left: 130px;
   background: rgba(255, 255, 255, 0.6);
   border: 1px solid #ffffff;
   box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
@@ -745,8 +745,8 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 530px;
   height: 108px;
-  left: 310px;
-  top: 261px;
+  left: 210px;
+  top: 161px;
 
   /* H2/Heavy */
 
@@ -768,9 +768,8 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 420px;
   height: 231px;
-  left: 1190px;
-  top: 519px;
-
+  left: 990px;
+  top: 279px;
   background: #ffffff;
   /* Shadow1 */
 
@@ -783,8 +782,8 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 420px;
   height: 231px;
-  left: 750px;
-  top: 554px;
+  left: 550px;
+  top: 304px;
 
   background: #ffffff;
   /* Shadow1 */
@@ -798,8 +797,8 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 420px;
   height: 207px;
-  left: 310px;
-  top: 613px;
+  left: 110px;
+  top: 413px;
 
   background: #ffffff;
   /* Shadow1 */
@@ -836,8 +835,8 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 1450px;
   height: 671px;
-  left: 310px;
-  top: 2441px;
+  left: 10px;
+  top: 641px;
   z-index: 100;
   background-image: url("../../assets/images/profiles.png");
 }
@@ -889,11 +888,12 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 }
 
 .screen3 {
-  position: absolute;
-  width: 1920px;
+  position: relative;
+  // width: 1920px;
+  display: flex;
   height: 1338px;
   left: 0px;
-  top: 2500px;
+  top: -300px;
   z-index: 20;
   background-image: url("../../assets/images/screen3.png");
   // background: linear-gradient(345.52deg, #FFFFFF -13.57%, #EBF0F0 79.12%);
@@ -902,10 +902,11 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 .screen4 {
   position: absolute;
-  width: 1920px;
+  display: flex;
+  // width: 1920px;
   height: 3425.51px;
   left: 0px;
-  z-index: 15;
+  z-index: 9;
   top: 3105.51px;
   background-image: url("../../assets/images/screen4.png");
   background: #ffffff;
@@ -915,8 +916,9 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 .screen5 {
   position: absolute;
-  width: 1920.01px;
-  height: 2150.5px;
+  display: flex;
+  // width: 1920.01px;
+  height: 1550.5px;
   left: 0px;
   z-index: 20;
   top: 5667px;
@@ -928,10 +930,11 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   /* BG_Screen2 */
 
   position: absolute;
-  width: 1920px;
-  height: 1482px;
+  display: flex;
+  // width: 1920px;
+  height: 1282px;
   left: 0px;
-  top: 7460px;
+  top: 7160px;
   z-index: 5;
   background-image: url("../../assets/images/screen6.png");
   // background: #EBF0EF;
@@ -942,7 +945,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 550px;
   height: 109px;
-  left: 1060px;
+  left: 760px;
   top: 772px;
   z-index: 100;
 
@@ -964,10 +967,10 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 .screen3-image1 {
   position: absolute;
-  width: 728px;
-  height: 519px;
-  left: 362px;
-  top: 772px;
+  width: 828px;
+  height: 619px;
+  left: 62px;
+  top: 472px;
   z-index: 100;
 
   // background: url(Safari 2.jpg);
@@ -980,10 +983,10 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 .screen3-image2 {
   position: absolute;
-  width: 748px;
-  height: 568px;
-  left: 970px;
-  top: 864px;
+  width: 848px;
+  height: 668px;
+  left: 670px;
+  top: 564px;
   z-index: 100;
 
   // background: url(Safari 3 Knowledge.jpg);
@@ -1001,13 +1004,13 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   flex-direction: column;
   align-items: flex-end;
   padding: 0px;
-  gap: 20px;
+  // gap: 20px;
 
   position: relative;
   width: 214px;
   height: 173px;
-  left: 506px;
-  top: 1436px;
+  left: 106px;
+  top: 1136px;
 }
 
 .stepper2 {
@@ -1017,13 +1020,13 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   flex-direction: column;
   align-items: flex-end;
   padding: 0px;
-  gap: 20px;
+  //  gap: 20px;
 
   position: relative;
   width: 200px;
   height: 197px;
-  left: 740px;
-  top: 1039px;
+  left: 240px;
+  top: 1200px;
 }
 
 .stepper3 {
@@ -1033,13 +1036,13 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   flex-direction: column;
   align-items: flex-end;
   padding: 0px;
-  gap: 20px;
+  // gap: 20px;
 
   position: relative;
   width: 183px;
   height: 149px;
-  left: 427px;
-  top: 910px;
+  left: -195px;
+  top: 1410px;
 }
 
 .stepper3-atom1 {
@@ -1217,8 +1220,8 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 773px;
   height: 100px;
-  left: 148px;
-  top: 726px;
+  left: 48px;
+  top: 426px;
 
   font-family: "SF Pro Text";
   font-style: normal;
@@ -1243,7 +1246,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 548px;
   height: 163px;
-  left: 310px;
+  left: 110px;
   top: 1254px;
 
   /* H2/Normal */
@@ -1266,7 +1269,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 420px;
   height: 279px;
-  left: 1320px;
+  left: 830px;
   top: 1280px;
 
   background: rgba(0, 101, 87, 0.06);
@@ -1319,14 +1322,14 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 .my-feed {
   position: absolute;
-  width: 1000px;
-  height: 770px;
-  left: 750px;
-  top: 1429px;
+  width: 1180px;
+  height: 1070px;
+  left: 350px;
+  top: 1439px;
   z-index: 1000;
-  background: url("../../assets/images/my-feed.png");
-  filter: drop-shadow(128px 109px 250px rgba(1, 0, 35, 0.16))
-    drop-shadow(0px 4px 24px rgba(20, 27, 41, 0.08));
+  // background: url("../../assets/images/my-feed.png");
+  // filter: drop-shadow(128px 109px 250px rgba(1, 0, 35, 0.16))
+  //   drop-shadow(0px 4px 24px rgba(20, 27, 41, 0.08));
   border-radius: 8px;
 }
 
@@ -1502,16 +1505,15 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 .frame-div {
   z-index: 3000 !important;
   position: absolute;
-  top: 3100px;
-  left: 20px;
+  left: -420px;
 }
 
 .group5 {
   position: absolute;
   width: 643px;
   height: 225px;
-  left: 1010px;
-  top: 2550px;
+  left: 410px;
+  top: 2450px;
 }
 
 .group5-text1 {
@@ -1555,9 +1557,9 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 .safari32 {
   position: absolute;
-  width: 943px;
+  width: 843px;
   height: 859px;
-  left: 850px;
+  left: 650px;
   top: 5703px;
   z-index: 1000;
   background: url("../../assets/images/safari32.png");
@@ -1570,9 +1572,9 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 .frame80 {
   position: absolute;
-  width: 625px;
+  width: 525px;
   height: 667px;
-  left: 1450px;
+  left: 950px;
   top: 5924px;
 
   // background: #FFFFFF;
@@ -1595,7 +1597,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 405px;
   height: 163px;
-  left: 400px;
+  left: 200px;
   top: 132px;
 
   /* H2/Heavy */
@@ -1618,7 +1620,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 350px;
   height: 48px;
-  left: 400px;
+  left: 200px;
   top: 352px;
 
   /* Body2/Bold */
@@ -1647,7 +1649,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 830px;
   height: 308px;
-  left: 260px;
+  left: 60px;
   top: 410px;
   background: url("../../assets/images/Frame\ 88.png");
   // background: #FFFFFF;
@@ -1659,9 +1661,9 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 .frame148 {
   position: absolute;
-  width: 650px;
+  width: 610px;
   height: 754px;
-  left: 1110px;
+  left: 900px;
   top: 603px;
   z-index: 1000;
   background: url("../../assets/images/Frame\ 148.png");
@@ -1680,7 +1682,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 950px;
   height: 630px;
-  left: 310px;
+  left: 110px;
   top: 927px;
   z-index: 800;
   background: url("../../assets/images/Frame\ 147.png");
@@ -1697,7 +1699,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 550px;
   height: 163px;
-  left: 500px;
+  left: 300px;
   top: 803px;
 
   /* H2/Heavy */
@@ -1717,11 +1719,11 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 }
 
 .frame93 {
-  position: absolute;
-  width: 1298px;
-  height: 164px;
-  left: 308px;
-  top: 7708px;
+  position: relative;
+  width: 1098px;
+  height: 144px;
+  left: 240px;
+  top: 158px;
   z-index: 1000;
   background: linear-gradient(322.23deg, #6b69a6 1.98%, #028b78 95.22%);
   box-shadow: 0px 45px 119px rgba(0, 81, 116, 0.14),
@@ -1758,7 +1760,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 640px;
   height: 222px;
-  left: 310px;
+  left: 110px;
   top: 452px;
 
   background: #ffffff;
@@ -1773,7 +1775,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 640px;
   height: 220px;
-  left: 970px;
+  left: 770px;
   top: 452px;
 
   background: #ffffff;
@@ -1788,7 +1790,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 640px;
   height: 220px;
-  left: 310px;
+  left: 110px;
   top: 704px;
 
   background: #ffffff;
@@ -1803,7 +1805,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 640px;
   height: 220px;
-  left: 970px;
+  left: 770px;
   top: 702px;
 
   background: #ffffff;
@@ -1818,7 +1820,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 640px;
   height: 220px;
-  left: 310px;
+  left: 110px;
   top: 944px;
 
   background: #ffffff;
@@ -1833,7 +1835,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 640px;
   height: 220px;
-  left: 970px;
+  left: 770px;
   top: 942px;
 
   background: #ffffff;
@@ -2032,10 +2034,10 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 .frame9-update1-logo {
   position: relative;
 
-  width: 110px;
-  height: 110px;
+  width: 98px;
+  height: 98px;
 
-  background: url("../../assets/images/Frame\ 4.png");
+  // background: url("../../assets/images/Frame\ 4.png");
 }
 
 .frame9-update1-text {
@@ -2065,4 +2067,241 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
     0px 10px 20px rgba(0, 0, 0, 0.03);
   border-radius: 25px;
+}
+.frame27-mobile {
+  display: flex;
+  //left: 990px;
+  z-index: 1000;
+  background: #ffffff;
+  margin: 10px;
+  align-items: center;
+  /* Shadow1 */
+
+  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
+    0px 10px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 25px 25px 25px 0px;
+}
+
+.frame94 {
+  position: relative;
+  // display: flex;
+  width: "100%";
+  height: 309px;
+  left: 0px;
+  bottom: 0px;
+  /* Foundation /Violet/Dark :active */
+
+  background: #161431;
+}
+
+.frame162 {
+  /* Frame 162 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 459px;
+
+  position: absolute;
+  width: 1300px;
+  height: 34px;
+  left: 110px;
+  top: 40px;
+  background: url("../../assets/images/Frame\ 162.png");
+}
+
+.frame4 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  // display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  position: relative;
+
+  height: 64px;
+  left: 10px;
+  top: 245px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.04);
+  border-top: 1.5px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(7.5px);
+  /* Note: backdrop-filter has minimal browser support */
+}
+
+.frame4-text {
+  width: 243px;
+  height: 24px;
+
+  /* Body2/Normal */
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: -0.01em;
+
+  color: rgba(255, 255, 255, 0.5);
+
+  /* Inside auto layout */
+  align-content: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.footer-text1 {
+  position: absolute;
+  width: 310px;
+  height: 91px;
+  left: 1100px;
+  top: 60px;
+
+  /* Subheadline/Heavy */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+  letter-spacing: -0.014em;
+
+  color: #ffffff;
+}
+.footer-text2 {
+  /* Contact us: */
+
+  position: absolute;
+  width: 113px;
+  height: 28px;
+  left: 770px;
+  top: 60px;
+
+  /* Subheadline/Bold */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  letter-spacing: -0.014em;
+
+  color: #ffffff;
+}
+.footer-text3 {
+  position: absolute;
+  width: 110px;
+  height: 28px;
+  left: 440px;
+  top: 60px;
+
+  /* Subheadline/Bold */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  letter-spacing: -0.014em;
+
+  color: #ffffff;
+}
+.footer-text4 {
+  position: absolute;
+  width: 100px;
+  height: 28px;
+  left: 110px;
+  top: 60px;
+
+  /* Subheadline/Bold */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  letter-spacing: -0.014em;
+
+  color: #ffffff;
+}
+.footer-text5 {
+  /* Support Extended team */
+
+  position: absolute;
+  width: 310px;
+  height: 70px;
+  left: 770px;
+  top: 100px;
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  /* or 219% */
+
+  letter-spacing: -0.01em;
+
+  /* Foundation /Violet/Light :active */
+
+  color: #bfbed2;
+}
+.footer-text6 {
+  /* FAQ Blogs */
+
+  position: absolute;
+  width: 42px;
+  height: 70px;
+  left: 440px;
+  top: 100px;
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  /* or 219% */
+
+  letter-spacing: -0.01em;
+
+  /* Foundation /Violet/Light :active */
+
+  color: #bfbed2;
+}
+.footer-text7 {
+  position: absolute;
+  width: 310px;
+  height: 105px;
+  left: 110px;
+  top: 100px;
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  /* or 219% */
+
+  letter-spacing: -0.01em;
+
+  /* Foundation /Violet/Light :active */
+
+  color: #bfbed2;
 }
