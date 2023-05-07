@@ -17,7 +17,7 @@ const PageTemplate = (prop: Props) => {
 		>
 			<NavBar />
 			{prop.children}
-			<Footer />
+			{/* <Footer /> */}
 		</ThemeProvider>
 	);
 };

@@ -2305,3 +2305,859 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
   color: #bfbed2;
 }
+
+.mobile-screen1 {
+  position: absolute;
+  height: 754px;
+  left: 0%;
+  right: 0%;
+  top: 0px;
+
+  background: url("../../assets/images/mobile1.png");
+}
+
+.frame157 {
+  /* Frame 157 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  // left: 20px;
+  top: 90px;
+}
+
+.frame156 {
+  /* Frame 156 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 93px;
+
+  width: 93px;
+  height: 18px;
+  background: url("../../assets/images/Frame\ 156.png");
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.sort {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 0px;
+  top: 0px;
+  background: url("../../assets/images/sort.png");
+}
+
+.frame153 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  // padding: 0px;
+  gap: 40px;
+  padding: 10px;
+  position: absolute;
+  width: 100%;
+  height: 390px;
+  // left: 20px;
+  top: 158px;
+}
+
+.frame153-text1 {
+  /* One platform for Everything Tax-Related */
+
+  width: 280px;
+  height: 121px;
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 40px;
+  /* or 118% */
+
+  letter-spacing: -0.02em;
+
+  /* Foundation /Violet/Darker */
+
+  color: #111026;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame153-text2 {
+  width: 280px;
+  height: 103px;
+
+  /* Mobile/Body Regular */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 146% */
+
+  /* Foundation /Violet/Normal */
+
+  color: #302d6d;
+}
+.frame153-button {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 15px 20px 25px;
+  gap: 15px;
+
+  width: 280px;
+  height: 66px;
+
+  /* Foundation /Violet/Normal */
+
+  background: #302d6d;
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.mock-ups-mobile {
+  position: absolute;
+  width: 290px;
+  height: 300px;
+  left: 20px;
+  top: 598px;
+}
+
+.destination-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 300.31px;
+  height: 209px;
+  left: 40px;
+  top: 954px;
+}
+.frame130-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 14.55px;
+
+  width: 100%;
+  height: 70px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame130-text1-mobile {
+  width: 300px;
+  height: 70px;
+
+  /* Mobile/H2 Bold */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  /* or 125% */
+
+  letter-spacing: -0.02em;
+
+  /* Foundation /Violet/Normal */
+
+  color: #302d6d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame155-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 48.73px;
+
+  width: 290.73px;
+  height: 85px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame23-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 101px;
+  height: 85px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame23-text1-mobile {
+  width: 101px;
+  height: 35px;
+
+  /* Mobile/H2 Bold */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  /* identical to box height, or 125% */
+
+  letter-spacing: -0.02em;
+
+  /* Foundation /Violet/Normal */
+
+  color: #302d6d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame23-text2-mobile {
+  width: 93.1px;
+  height: 40px;
+
+  /* Mobile/Body Small */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+
+  letter-spacing: -0.01em;
+
+  color: rgba(29, 27, 65, 0.6);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.frame24-mobile {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+
+  width: 141px;
+  height: 85px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame24-text1-mobile {
+  width: 98.92px;
+  height: 40px;
+
+  /* Mobile/Body Small */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+
+  letter-spacing: -0.01em;
+
+  color: rgba(29, 27, 65, 0.6);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame26-mobile {
+  /* Frame 26 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  width: 141px;
+  height: 35px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame26-text1-mobile {
+  width: 119px;
+  height: 35px;
+
+  /* Mobile/H2 Bold */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  /* identical to box height, or 125% */
+
+  text-align: right;
+  letter-spacing: -0.02em;
+
+  /* Foundation /Green/Dark :hover */
+
+  color: #006557;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame25-mobile {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  top: -30px;
+  width: 22px;
+  height: 23px;
+  position: relative;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.add-icon-mobile {
+  width: 22px;
+  height: 23px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 1;
+}
+
+.frame9-mobile {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 40px 20px;
+  gap: 10px;
+
+  position: relative;
+  width: 100%;
+  height: 430px;
+  left: 0px;
+  top: 1213px;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid #ffffff;
+  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
+    0px 10px 20px rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(19px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 25px;
+}
+.frame9-updates {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+
+  width: 353px;
+  height: 74px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frame9-update1-logo-mobile {
+  width: 74px;
+  height: 74px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame9-update1-text-mobile {
+  width: 254px;
+  height: 41px;
+
+  /* Mobile/Body Regular */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 146% */
+
+  /* Foundation /Violet/Normal */
+
+  color: #302d6d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.frame9-update2-logo-mobile {
+  width: 74px;
+  height: 74px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame9-update2-text-mobile {
+  width: 254px;
+  height: 41px;
+
+  /* Mobile/Body Regular */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 146% */
+
+  /* Foundation /Violet/Normal */
+
+  color: #302d6d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.frame9-update3-logo-mobile {
+  width: 74px;
+  height: 74px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame9-update3-text-mobile {
+  width: 254px;
+  height: 41px;
+
+  /* Mobile/Body Regular */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 146% */
+
+  /* Foundation /Violet/Normal */
+
+  color: #302d6d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.frame9-update4-logo-mobile {
+  width: 74px;
+  height: 74px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame9-update4-text-mobile {
+  width: 254px;
+  height: 41px;
+
+  /* Mobile/Body Regular */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 146% */
+
+  /* Foundation /Violet/Normal */
+
+  color: #302d6d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.frame9-update5-logo-mobile {
+  width: 74px;
+  height: 74px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame9-update5-text-mobile {
+  width: 254px;
+  height: 41px;
+
+  /* Mobile/Body Regular */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 146% */
+
+  /* Foundation /Violet/Normal */
+
+  color: #302d6d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+.frame132-mobile {
+  position: relative;
+  width: 100%;
+  height: 471px;
+  // left: 393px;
+  top: 1152px;
+
+  background: linear-gradient(322.23deg, #262457 1.98%, #008774 95.22%);
+  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
+    0px 10px 20px rgba(0, 0, 0, 0.03);
+  backdrop-filter: blur(19px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 25px 25px 0px 25px;
+  // transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.frame133-mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 40px 30px;
+  gap: 10px;
+
+  position: relative;
+  width: 353px;
+  height: 165px;
+  left: 20px;
+  top: 1033px;
+
+  background: #ffffff;
+  /* Shadow1 */
+
+  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
+    0px 10px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 0px 20px 20px 20px;
+}
+.frame133-text1-mobile {
+  width: 293px;
+  height: 85px;
+
+  /* Body2/Normal */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* Foundation /Violet/Normal */
+
+  color: #302d6d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.frame154-mobile {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 40px 30px;
+  gap: 10px;
+
+  position: absolute;
+  width: 353px;
+  height: 165px;
+  left: 20px;
+  top: 2118px;
+  z-index: 10;
+  background: #ffffff;
+  /* Shadow1 */
+
+  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
+    0px 10px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+}
+.frame154-text1-mobile {
+  width: 293px;
+  height: 85px;
+
+  /* Body2/Normal */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* Foundation /Violet/Normal */
+
+  color: #302d6d;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.frame132-text1-mobile {
+  position: absolute;
+  width: 194px;
+  height: 160px;
+  left: 139px;
+  top: 131px;
+
+  /* Mobile/H1 Heavy */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 35px;
+  line-height: 40px;
+  /* or 114% */
+
+  text-align: right;
+
+  /* Foundation /Grey/Light */
+
+  color: #f4f4f5;
+}
+
+.mobile2 {
+  position: absolute;
+  width: 100%;
+  height: 845px;
+  left: 0px;
+  top: 2344px;
+
+  background: url("../../assets/images/mobile2.png");
+  // transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.bg-frame-mobile {
+  /* BG_Frame */
+
+  position: absolute;
+  width: 100%;
+  height: 1717px;
+  left: 0px;
+  top: 681px;
+
+  background: linear-gradient(178.14deg, #ffffff 5.94%, #ebf0f0 75.22%);
+}
+.find-text-mobile {
+  position: relative;
+  display: block;
+  width: 280px;
+  height: 70px;
+  left: 20px;
+  // top: 2413px;
+
+  /* Mobile/H2 Regular */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  /* or 125% */
+  z-index: 15;
+  letter-spacing: -0.02em;
+
+  /* Foundation /Violet/Darker */
+
+  color: #111026;
+}
+.stepper-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 10px;
+  gap: 20px;
+
+  position: absolute;
+  width: 100%;
+  height: 535px;
+  left: 0px;
+  top: 2423px;
+}
+
+.frame29-mobile {
+  /* Frame 29 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 40px 30px;
+  gap: 10px;
+
+  width: 353px;
+  height: 165px;
+
+  background: #ffffff;
+  /* Shadow1 */
+
+  box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04),
+    0px 10px 20px rgba(0, 0, 0, 0.03);
+  border-radius: 25px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.frame29-mobile-text {
+  width: 293px;
+  height: 85px;
+
+  /* Body2/Normal */
+
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* Foundation /Green/Normal :active */
+
+  color: #008774;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
