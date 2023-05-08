@@ -25,10 +25,16 @@ import vector12 from "../../assets/images/Vector 12.png";
 import vector13 from "../../assets/images/Vector 13.png";
 import vector14 from "../../assets/images/Vector 14.png";
 import vector15 from "../../assets/images/Vector 15.png";
+import userMobile from "../../assets/images/user-mobile.png";
+import com2 from "../../assets/images/clipboard-text.png";
+import com3 from "../../assets/images/archive-tick.png";
+import com4 from "../../assets/images/messages.png";
+import com5 from "../../assets/images/profile-2user.png";
+import com6 from "../../assets/images/directbox-send.png";
+import f88 from "../../assets/images/Frame 88.png";
 import "./_HomePage.scss";
 import { Col, Row } from "react-bootstrap";
 import { Grid } from "@mui/material";
-import { relative } from "path";
 
 function HomePage() {
   const theme = useTheme();
@@ -818,6 +824,141 @@ function HomePage() {
               </text>
             </div>
           </div>
+          <div className="mobile3">
+            <text className="mobile3-text1">
+              Get Your <b>Tax Questions</b> Answered in Seconds
+            </text>
+            <img alt="s3m-img1" src={knowledge2} className="mobile3-image1" />
+            <div className="mobile3-list">
+              <div className="stepper1-mobile">
+                <div className="stepper1-atom1-mobile">
+                  <div className="stepper-number-icon-mobile">
+                    <text className="stepper-number-mobile">1</text>
+                  </div>
+                </div>
+                <text className="stepper1-text-mobile">
+                  Learn More: See the answers given to other users who asked
+                  similar questions
+                </text>
+              </div>
+              <div className="stepper1-mobile">
+                <div className="stepper1-atom1-mobile">
+                  <div className="stepper-number-icon-mobile">
+                    <text className="stepper-number-mobile">2</text>
+                  </div>
+                </div>
+                <text className="stepper1-text-mobile">
+                  AI Powered Answers: We quickly scan all relevant sources to
+                  bring you the most accurate, up-to-date answer
+                </text>
+              </div>
+              <div className="stepper1-mobile">
+                <div className="stepper1-atom1-mobile">
+                  <div className="stepper-number-icon-mobile">
+                    <text className="stepper-number-mobile">3</text>
+                  </div>
+                </div>
+                <text className="stepper1-text-mobile">
+                  Ask Questions: Simply type in your tax-related question
+                </text>
+              </div>
+            </div>
+          </div>
+          <div className="mobile4">
+            <text className="mobile4-text1">
+              <text style={{ fontWeight: 800 }}>Join a Community</text> of
+              Learners, Experts, and Everyone in Between
+            </text>
+            <div className="community-content">
+              <div className="com-div">
+                <div className="com-header-div">
+                  <img className="com-icon" alt="com-icon" src={userMobile} />
+                  <text className="com-title">User Profile</text>
+                </div>
+                <text>
+                  Create a profile to connect with other entrepreneurs, CPAs,
+                  and more
+                </text>
+                <div className="line" />
+              </div>
+              <div className="com-div">
+                <div className="com-header-div">
+                  <img className="com-icon" alt="com-icon" src={com2} />
+                  <text className="com-title">Posts and Publications: </text>
+                </div>
+                <text>
+                  Read, share, and reply to posts from your connections
+                </text>
+                <div className="line" />
+              </div>
+              <div className="com-div">
+                <div className="com-header-div">
+                  <img className="com-icon" alt="com-icon" src={com3} />
+                  <text className="com-title">Quick Access:</text>
+                </div>
+                <text>
+                  Save the service providers you work with often for quick
+                  access
+                </text>
+                <div className="line" />
+              </div>
+              <div className="com-div">
+                <div className="com-header-div">
+                  <img className="com-icon" alt="com-icon" src={com4} />
+                  <text className="com-title">Private Messaging:</text>
+                </div>
+                <text>
+                  Connect with other users privately through instant messaging
+                </text>
+                <div className="line" />
+              </div>
+              <div className="com-div">
+                <div className="com-header-div">
+                  <img className="com-icon" alt="com-icon" src={com5} />
+                  <text className="com-title">Private Messaging:</text>
+                </div>
+                <text>
+                  Suggested connections help you reach even more professionals
+                </text>
+                <div className="line" />
+              </div>
+              <div className="com-div">
+                <div className="com-header-div">
+                  <img className="com-icon" alt="com-icon" src={com6} />
+                  <text className="com-title">
+                    Share Questions and Answers:
+                  </text>
+                </div>
+                <text>
+                  Share your expertise or ask questions and get them answered by
+                  like-minded professionals
+                </text>
+                <div className="line" />
+              </div>
+            </div>
+          </div>
+          <div className="mobile5">
+            <text className="mobile5-text1">
+              <text style={{ fontWeight: 800 }}>CPAs and Firms,</text> Your
+              Moment Has Come...
+            </text>
+            <text className="mobile5-text2">
+              Serving customers and storing documents is now 100% faster,
+              easier, and more secure
+            </text>
+            <img className="safari32-mobile" alt="safari32" src={Safari} />
+
+            <img
+              className="frame80-image-mobile"
+              alt="frame80-img"
+              src={Frame90}
+            />
+            <img className="frame88-mobile" alt="frame88" src={f88} />
+          </div>
+          <div className="mobile6" />
+
+          <div className="mobile7"></div>
+          <div className="mobile8"></div>
         </Grid>
       )}
     </PageTemplate>
