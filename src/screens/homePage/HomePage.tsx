@@ -14,7 +14,7 @@ import Frame21 from "../../assets/images/Frame 21.png";
 import Frame22 from "../../assets/images/Frame 22.png";
 import myFeed from "../../assets/images/my-feed.png";
 import "./_HomePage.scss";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import { Grid } from "@mui/material";
 
 function HomePage() {
@@ -608,9 +608,11 @@ function HomePage() {
           <footer
             style={{
               zIndex: 8000,
-              position: "fixed",
-              left: 0,
-              bottom: 0,
+              top: 8400,
+              position:'absolute',
+              left:0,
+              bottom:0,
+              right:0,
               width: "100%",
             }}
           >
