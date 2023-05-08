@@ -63,7 +63,7 @@ function HomePage() {
                   <div className="inner-frame">
                     <div className="button-div1">
                       <div className="button-div2">
-                        <h6 className="button-text">Get Started</h6>
+                        <text className="button-text">Get Started</text>
                         <img
                           src={arrow}
                           alt="mySvgImage"
@@ -86,27 +86,30 @@ function HomePage() {
               <Col xs={12} md={12} style={{ alignItems: "flex-start" }}>
                 <div className="destination">
                   <div className="frame130">
-                    <h2 className="frame130-text1">
-                      №1 Destination for Everything Taxes
-                    </h2>
+                    <text className="frame130-text1">
+                      №1{" "}
+                      <text style={{ color: "#BFBED2" }}>
+                        Destination for Everything Taxes
+                      </text>
+                    </text>
                   </div>
                   <div className="frame155">
                     <div className="frame23">
-                      <h2 className="frame23-text1">90,000</h2>
-                      <h6 className="frame23-text2">
+                      <text className="frame23-text1">90,000</text>
+                      <text className="frame23-text2">
                         Tax/Accounting Firms in the USA
-                      </h6>
+                      </text>
                     </div>
                     <div className="frame24">
                       <div className="frame26">
-                        <h2 className="frame26-text1">665,000</h2>
+                        <text className="frame26-text1">665,000</text>
                         <div className="frame25">
                           <img src={add} className="add-icon" alt="add" />
                         </div>
                       </div>
-                      <h6 className="frame24-text1">
+                      <text className="frame24-text1">
                         Licensed CPAs in the USA
-                      </h6>
+                      </text>
                     </div>
                   </div>
                 </div>
@@ -114,9 +117,170 @@ function HomePage() {
               <Col xs={12} md={12}>
                 <div
                   className="bg-frame"
-                  style={{ display: "flex", top:  -600  }}
+                  style={{ display: "flex", top: -600 }}
                 >
-                  <div className="blobs" style={{ top:  -50 }}>
+                  {matches && (
+                    <div className="frames">
+                      <div className="frame133">
+                        <div
+                          style={{
+                            position: "absolute",
+                            flexDirection: "column",
+                            width: "240px",
+                            height: "121px",
+                            left: "90px",
+                            top: "55px",
+                          }}
+                        >
+                          <text className="frame133-text1">Our Vision:</text>
+                          <text
+                            className="frame133-text3"
+                            style={{ color: "#1D1B4199" }}
+                          >
+                            Connect every individual to the right tax expert,
+                            creating success for both
+                          </text>
+                        </div>
+                      </div>
+                      <text className="frame133-text2">Vision</text>
+                      <div className="frame27">
+                        <div
+                          style={{
+                            position: "absolute",
+                            flexDirection: "column",
+                            width: "240px",
+                            height: "121px",
+                            left: "40px",
+                            top: "5px",
+                          }}
+                        >
+                          <text className="frame27-text1">Our Mission:</text>
+                          <text
+                            className="frame27-text1"
+                            style={{ color: "#1D1B4199" }}
+                          >
+                            Be the only destination for all your tax needs
+                            globally
+                          </text>
+                        </div>
+                        <text className="frame27-text2"> Mission</text>
+                      </div>
+                      <div className="frame81"></div>
+
+                      <div className="frame9" style={{ height: "465px" }}>
+                        <Row
+                          style={{
+                            flexWrap: "wrap",
+                            justifyContent: "space-evenly",
+
+                            flexDirection: "row",
+                            top: -300,
+                            left: 130,
+                            marginTop: 50,
+                          }}
+                        >
+                          <Col xs={6}>
+                            <Row style={{ margin: 10 }}>
+                              <Col xs={3}>
+                                <img
+                                  alt="frame9-update1-logo"
+                                  className="frame9-update1-logo"
+                                  src={Item}
+                                />
+                              </Col>
+                              <Col xs={9}>
+                                <text className="frame9-update1-text">
+                                  Latest updates on tax policies and other
+                                  developments
+                                </text>
+                              </Col>
+                            </Row>
+                          </Col>
+                          <Col xs={6}></Col>
+                          <Col xs={6}>
+                            <Row style={{ margin: 5 }}>
+                              <Col xs={3}>
+                                <img
+                                  alt="frame9-update2-logo"
+                                  className="frame9-update1-logo"
+                                  src={Frame19}
+                                />
+                              </Col>
+                              <Col xs={9}>
+                                <text className="frame9-update1-text">
+                                  An AI-powered platform with a worldwide
+                                  community
+                                </text>
+                              </Col>
+                            </Row>
+                          </Col>
+                          <Col xs={6}>
+                            <Row style={{ margin: 5 }}>
+                              <Col xs={3}>
+                                <img
+                                  alt="frame9-update1-logo"
+                                  className="frame9-update1-logo"
+                                  src={Frame20}
+                                />
+                              </Col>
+                              <Col xs={9}>
+                                <text className="frame9-update1-text">
+                                  Matching individuals and businesses with the
+                                  right CPAs and firms
+                                </text>
+                              </Col>
+                            </Row>
+                          </Col>
+                          <Col xs={6}>
+                            <Row style={{ margin: 5 }}>
+                              <Col xs={3}>
+                                <img
+                                  alt="frame9-update1-logo"
+                                  className="frame9-update1-logo"
+                                  src={Frame21}
+                                />
+                              </Col>
+                              <Col xs={9}>
+                                <text className="frame9-update1-text">
+                                  NLP funtionality to answer any and all
+                                  tax-related questions
+                                </text>
+                              </Col>
+                            </Row>
+                          </Col>
+                          <Col xs={6}>
+                            <Row style={{ margin: 5 }}>
+                              <Col xs={3}>
+                                <img
+                                  alt="frame9-update1-logo"
+                                  className="frame9-update1-logo"
+                                  src={Frame22}
+                                />
+                              </Col>
+                              <Col xs={9}>
+                                <text className="frame9-update1-text">
+                                  Access to off-shore CPAs ready to support your
+                                  team
+                                </text>
+                              </Col>
+                            </Row>
+                          </Col>
+                        </Row>
+                      </div>
+
+                      <div className="frame132">
+                        <img
+                          alt="quote"
+                          className="frame132-icon"
+                          src={quote}
+                        />
+                        <h2 className="frame132-text1">
+                          One-Stop Shop for All Your Tax Needs
+                        </h2>
+                      </div>
+                    </div>
+                  )}
+                  <div className="blobs" style={{ top: -50 }}>
                     {matches && (
                       <>
                         <div className="blob1" />
@@ -129,268 +293,6 @@ function HomePage() {
                         <div className="blob8" />
                       </>
                     )}
-                    {
-                      matches && (
-                        <div className="frames">
-                          <div className="frame133">
-                            <text className="frame133-text2">Vision</text>
-                            <h6 className="frame133-text1">
-                              Our Vision: Connect every individual to the right
-                              tax expert, creating success for both
-                            </h6>
-                          </div>
-                          <div className="frame27">
-                            <h6 className="frame27-text1">
-                              <b>Our Mission:</b>
-                              Be the only destination for all your tax needs
-                              globally
-                            </h6>
-                            <h6 className="frame27-text1"> Mission</h6>
-                          </div>
-                          <div className="frame81"></div>
-
-                          <div className="frame9" style={{ height: "465px" }}>
-                            <Row
-                              style={{
-                                flexWrap: matches ? "wrap" : "nowrap",
-                                justifyContent: "space-evenly",
-
-                                flexDirection: matches ? "row" : "column",
-                                top: matches ? -300 : 400,
-                                left: matches ? 130 : 0,
-                                marginTop: 50,
-                              }}
-                            >
-                              <Col xs={6}>
-                                <Row style={{ margin: 5 }}>
-                                  <Col xs={3}>
-                                    <img
-                                      alt="frame9-update1-logo"
-                                      className="frame9-update1-logo"
-                                      src={Item}
-                                    />
-                                  </Col>
-                                  <Col xs={9}>
-                                    <text className="frame9-update1-text">
-                                      Latest updates on tax policies and other
-                                      developments
-                                    </text>
-                                  </Col>
-                                </Row>
-                              </Col>
-                              <Col xs={6}></Col>
-                              <Col xs={6}>
-                                <Row style={{ margin: 5 }}>
-                                  <Col xs={3}>
-                                    <img
-                                      alt="frame9-update2-logo"
-                                      className="frame9-update1-logo"
-                                      src={Frame19}
-                                    />
-                                  </Col>
-                                  <Col xs={9}>
-                                    <text className="frame9-update1-text">
-                                      An AI-powered platform with a worldwide
-                                      community
-                                    </text>
-                                  </Col>
-                                </Row>
-                              </Col>
-                              <Col xs={6}>
-                                <Row style={{ margin: 5 }}>
-                                  <Col xs={3}>
-                                    <img
-                                      alt="frame9-update1-logo"
-                                      className="frame9-update1-logo"
-                                      src={Frame20}
-                                    />
-                                  </Col>
-                                  <Col xs={9}>
-                                    <text className="frame9-update1-text">
-                                      Matching individuals and businesses with
-                                      the right CPAs and firms
-                                    </text>
-                                  </Col>
-                                </Row>
-                              </Col>
-                              <Col xs={6}>
-                                <Row style={{ margin: 5 }}>
-                                  <Col xs={3}>
-                                    <img
-                                      alt="frame9-update1-logo"
-                                      className="frame9-update1-logo"
-                                      src={Frame21}
-                                    />
-                                  </Col>
-                                  <Col xs={9}>
-                                    <text className="frame9-update1-text">
-                                      NLP funtionality to answer any and all
-                                      tax-related questions
-                                    </text>
-                                  </Col>
-                                </Row>
-                              </Col>
-                              <Col xs={6}>
-                                <Row style={{ margin: 5 }}>
-                                  <Col xs={3}>
-                                    <img
-                                      alt="frame9-update1-logo"
-                                      className="frame9-update1-logo"
-                                      src={Frame22}
-                                    />
-                                  </Col>
-                                  <Col xs={9}>
-                                    <text className="frame9-update1-text">
-                                      Access to off-shore CPAs ready to support
-                                      your team
-                                    </text>
-                                  </Col>
-                                </Row>
-                              </Col>
-                            </Row>
-                          </div>
-
-                          <div className="frame132">
-                            <img
-                              alt="quote"
-                              className="frame132-icon"
-                              src={quote}
-                            />
-                            <h2 className="frame132-text1">
-                              One-Stop Shop for All Your Tax Needs
-                            </h2>
-                          </div>
-                        </div>
-                      )
-                      // : (
-                      //   <>
-                      //     <div className="frame9" style={{ height: "600px" }}>
-                      //       <Row
-                      //         style={{
-                      //           flexWrap: matches ? "wrap" : "nowrap",
-                      //           justifyContent: "space-evenly",
-
-                      //           flexDirection: matches ? "row" : "column",
-                      //           top: matches ? -300 : 400,
-                      //           left: matches ? 130 : 0,
-                      //         }}
-                      //       >
-                      //         <Col xs={6}>
-                      //           <Row style={{ margin: 5 }}>
-                      //             <Col xs={3}>
-                      //               <img
-                      //                 alt="frame9-update1-logo"
-                      //                 className="frame9-update1-logo"
-                      //                 src={Item}
-                      //               />
-                      //             </Col>
-                      //             <Col xs={9}>
-                      //               <text className="frame9-update1-text">
-                      //                 Latest updates on tax policies and other
-                      //                 developments
-                      //               </text>
-                      //             </Col>
-                      //           </Row>
-                      //         </Col>
-                      //         <Col xs={6}></Col>
-                      //         <Col xs={6}>
-                      //           <Row style={{ margin: 5 }}>
-                      //             <Col xs={3}>
-                      //               <img
-                      //                 alt="frame9-update2-logo"
-                      //                 className="frame9-update1-logo"
-                      //                 src={Frame19}
-                      //               />
-                      //             </Col>
-                      //             <Col xs={9}>
-                      //               <text className="frame9-update1-text">
-                      //                 An AI-powered platform with a worldwide
-                      //                 community
-                      //               </text>
-                      //             </Col>
-                      //           </Row>
-                      //         </Col>
-                      //         <Col xs={6}>
-                      //           <Row style={{ margin: 5 }}>
-                      //             <Col xs={3}>
-                      //               <img
-                      //                 alt="frame9-update1-logo"
-                      //                 className="frame9-update1-logo"
-                      //                 src={Frame20}
-                      //               />
-                      //             </Col>
-                      //             <Col xs={9}>
-                      //               <text className="frame9-update1-text">
-                      //                 Matching individuals and businesses with the
-                      //                 right CPAs and firms
-                      //               </text>
-                      //             </Col>
-                      //           </Row>
-                      //         </Col>
-                      //         <Col xs={6}>
-                      //           <Row style={{ margin: 5 }}>
-                      //             <Col xs={3}>
-                      //               <img
-                      //                 alt="frame9-update1-logo"
-                      //                 className="frame9-update1-logo"
-                      //                 src={Frame21}
-                      //               />
-                      //             </Col>
-                      //             <Col xs={9}>
-                      //               <text className="frame9-update1-text">
-                      //                 NLP funtionality to answer any and all
-                      //                 tax-related questions
-                      //               </text>
-                      //             </Col>
-                      //           </Row>
-                      //         </Col>
-                      //         <Col xs={6}>
-                      //           <Row style={{ margin: 5 }}>
-                      //             <Col xs={3}>
-                      //               <img
-                      //                 alt="frame9-update1-logo"
-                      //                 className="frame9-update1-logo"
-                      //                 src={Frame22}
-                      //               />
-                      //             </Col>
-                      //             <Col xs={9}>
-                      //               <text className="frame9-update1-text">
-                      //                 Access to off-shore CPAs ready to support your
-                      //                 team
-                      //               </text>
-                      //             </Col>
-                      //           </Row>
-                      //         </Col>
-                      //       </Row>
-                      //       <Row>
-                      //         <div className="frame27-mobile">
-                      //           <text className="frame133-text2">Vision</text>
-                      //           <h6 className="frame133-text1">
-                      //             Our Vision: Connect every individual to the right
-                      //             tax expert, creating success for both
-                      //           </h6>
-                      //         </div>
-                      //       </Row>
-                      //       <Row>
-                      //         <div className="frame27-mobile">
-                      //           <h6 className="frame27-text1">
-                      //             <b>Our Mission:</b>
-                      //             Be the only destination for all your tax needs
-                      //             globally
-                      //           </h6>
-                      //           <h6 className="frame27-text1"> Mission</h6>
-                      //         </div>
-                      //       </Row>
-                      //     </div>
-                      //     <div className="frame132">
-                      //       <img alt="quote" className="frame132-icon" src={quote} />
-                      //       <h2 className="frame132-text1">
-                      //         One-Stop Shop for All Your Tax Needs
-                      //       </h2>
-                      //     </div>
-                      //   </>
-                      // )
-                    }
                   </div>
                 </div>
               </Col>
