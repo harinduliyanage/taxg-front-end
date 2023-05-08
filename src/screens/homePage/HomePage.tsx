@@ -114,9 +114,9 @@ function HomePage() {
               <Col xs={12} md={12}>
                 <div
                   className="bg-frame"
-                  style={{ display: "flex", top: matches ? -400 : 100 }}
+                  style={{ display: "flex", top:  -600  }}
                 >
-                  <div className="blobs" style={{ top: matches ? -250 : 100 }}>
+                  <div className="blobs" style={{ top:  -50 }}>
                     {matches && (
                       <>
                         <div className="blob1" />
