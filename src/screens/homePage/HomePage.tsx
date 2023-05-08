@@ -17,6 +17,14 @@ import myFeed from "../../assets/images/my-feed.png";
 import Profiles from "../../assets/images/profiles.png";
 import Safari from "../../assets/images/safari32.png";
 import Frame90 from "../../assets/images/frame90.png";
+import f52 from "../../assets/images/Connection.png";
+import point from "../../assets/images/Point.png";
+import vector10 from "../../assets/images/Vector 10.png";
+import vector11 from "../../assets/images/Vector 11.png";
+import vector12 from "../../assets/images/Vector 12.png";
+import vector13 from "../../assets/images/Vector 13.png";
+import vector14 from "../../assets/images/Vector 14.png";
+import vector15 from "../../assets/images/Vector 15.png";
 import "./_HomePage.scss";
 import { Col, Row } from "react-bootstrap";
 import { Grid } from "@mui/material";
@@ -438,43 +446,87 @@ function HomePage() {
                 <text style={{ fontWeight: 800 }}>Join a Community</text> of
                 Learners, Experts, and Everyone in Between
               </text>
-              <div className="frame71">
-                <text className="frame71-text1">
-                  Share Questions and Answers: Share your expertise or ask
-                  questions and get them answered by like-minded professionals
-                </text>
-              </div>
+
               <img alt="s4-img1" src={myFeed} className="my-feed" />
+
+              <img className="f-point1" alt="fp" src={point} />
+              <img className="f-point2" alt="fp" src={point} />
+              <img className="f-point3" alt="fp" src={point} />
+              <img className="f-point4" alt="fp" src={point} />
+              <img className="f-point5" alt="fp" src={point} />
+              <img className="f-point6" alt="fp" src={point} />
+
+              <img className="f-vector1" alt="fv" src={vector11} />
+              <img className="f-vector2" alt="fv" src={vector10} />
+              <img className="f-vector3" alt="fv" src={vector13} />
+              <img className="f-vector4" alt="fv" src={vector15} />
+              <img className="f-vector5" alt="fv" src={vector14} />
+              <img className="f-vector6" alt="fv" src={vector12} />
               <div className="frame-div">
+                <div className="frame71">
+                  <img className="f71-connection" alt="f52" src={f52} />
+                  <div className="frame-inner-div">
+                    <text className="frame71-text1">
+                      Share Questions and Answers:
+                    </text>
+                    <text style={{ color: "#003B3399" }}>
+                      Share your expertise or ask questions and get them
+                      answered by like-minded professionals
+                    </text>
+                  </div>
+                </div>
+
                 <div className="frame70">
-                  <text className="frame70-text">
-                    Quick Access: Save the service providers you work with often
-                    for quick access
-                  </text>
+                  <img className="f52-connection" alt="f52" src={f52} />
+                  <div className="frame-inner-div">
+                    <text className="frame70-text"> Quick Access:</text>
+                    <text style={{ color: "#003B3399" }}>
+                      Save the service providers you work with often for quick
+                      access
+                    </text>
+                  </div>
                 </div>
                 <div className="frame52">
-                  <text className="frame52-text">
-                    Posts and Publications: Read, share, and reply to posts from
-                    your connections
-                  </text>
+                  <img className="f52-connection" alt="f52" src={f52} />
+                  <div className="frame-inner-div">
+                    <text className="frame52-text">
+                      {" "}
+                      Posts and Publications:{" "}
+                    </text>
+                    <text style={{ color: "#003B3399" }}>
+                      Read, share, and reply to posts from your connections
+                    </text>
+                  </div>
                 </div>
                 <div className="frame69">
-                  <text className="frame69-text">
-                    User Profile: Create a profile to connect with other
-                    entrepreneurs, CPAs, and more
-                  </text>
+                  <img className="f52-connection" alt="f52" src={f52} />
+                  <div className="frame-inner-div">
+                    <text className="frame69-text"> User Profile:</text>
+                    <text style={{ color: "#003B3399" }}>
+                      Create a profile to connect with other entrepreneurs,
+                      CPAs, and more
+                    </text>
+                  </div>
                 </div>
                 <div className="frame72">
-                  <text className="frame72-text">
-                    Private Messaging: Connect with other users privately
-                    through instant messaging
-                  </text>
+                  <img className="f61-connection" alt="f52" src={f52} />
+                  <div className="frame-inner-div">
+                    <text className="frame72-text">Private Messaging: </text>
+                    <text style={{ color: "#003B3399" }}>
+                      Connect with other users privately through instant
+                      messaging
+                    </text>
+                  </div>
                 </div>
                 <div className="frame61">
-                  <text className="frame61-text">
-                    Grow Your Network: Suggested connections help you reach even
-                    more professionals
-                  </text>
+                  <img className="f61-connection" alt="f52" src={f52} />
+                  <div className="frame-inner-div">
+                    <text className="frame61-text"> Grow Your Network:</text>
+                    <text style={{ color: "#003B3399" }}>
+                      Suggested connections help you reach even more
+                      professionals
+                    </text>
+                  </div>
                 </div>
               </div>
               <div className="group5">
