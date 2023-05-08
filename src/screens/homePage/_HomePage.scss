@@ -222,7 +222,7 @@
   height: 670px;
   top: 148px;
   z-index: 1000;
-  margin-right: 100px;
+  margin-right: 150px;
 }
 
 .frame1 {
@@ -235,7 +235,7 @@
   flex-direction: column;
   position: relative;
   display: flex;
-  margin-left: 100px;
+  margin-left: 150px;
 
   // align-items: center;
   // width: 460px;
@@ -396,7 +396,7 @@
   z-index: 200;
   order: 3;
   position: relative;
-  margin-left: 100px;
+  margin-left: 150px;
   // width: 482px;
   // height: 285px;
   // left: 200px;
@@ -819,7 +819,7 @@
 
   font-family: "SF Pro Text";
   font-style: normal;
-  font-weight: 800;
+  // font-weight: 800;
   font-size: 16px;
   line-height: 24px;
   /* or 150% */
@@ -928,17 +928,11 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 }
 
 .frame27-text1 {
-  position: relative;
-  width: 240px;
-  height: 97px;
-  left: 90px;
-  top: 55px;
-
   /* Body2/Normal */
 
   font-family: "SF Pro Text";
   font-style: normal;
-  font-weight: 800;
+  // font-weight: 800;
   font-size: 16px;
   line-height: 24px;
   /* or 150% */
@@ -974,9 +968,9 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 .frame9 {
   box-sizing: border-box;
-  margin-left: 100px;
+  margin-left: 150px;
   position: relative;
-  width: 880px;
+  width: 820px;
   // height: 465px;
   // left: 130px;
   background: rgba(255, 255, 255, 0.6);
@@ -2278,7 +2272,6 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
 
 .frame9-update1-logo {
   position: relative;
-
   width: 98px;
   height: 98px;
 
@@ -2290,7 +2283,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   top: 30px;
   font-family: "SF Pro Text";
   font-style: normal;
-  font-weight: 800;
+  // font-weight: 800;
   font-size: 16px;
   line-height: 24px;
   /* or 150% */

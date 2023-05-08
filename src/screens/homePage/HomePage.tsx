@@ -126,6 +126,8 @@ function HomePage() {
                           style={{
                             position: "absolute",
                             flexDirection: "column",
+                            display: "flex",
+                            justifyContent: "space-between",
                             width: "240px",
                             height: "121px",
                             left: "90px",
@@ -148,13 +150,20 @@ function HomePage() {
                           style={{
                             position: "absolute",
                             flexDirection: "column",
+                            justifyContent: "space-between",
+                            display: "flex",
                             width: "240px",
                             height: "121px",
-                            left: "40px",
-                            top: "5px",
+                            left: "90px",
+                            top: "50px",
                           }}
                         >
-                          <text className="frame27-text1">Our Mission:</text>
+                          <text
+                            className="frame27-text1"
+                            style={{ fontWeight: 800 }}
+                          >
+                            Our Mission:
+                          </text>
                           <text
                             className="frame27-text1"
                             style={{ color: "#1D1B4199" }}
@@ -181,17 +190,24 @@ function HomePage() {
                         >
                           <Col xs={6}>
                             <Row style={{ margin: 10 }}>
-                              <Col xs={3}>
+                              <Col xs={4}>
                                 <img
                                   alt="frame9-update1-logo"
                                   className="frame9-update1-logo"
                                   src={Item}
                                 />
                               </Col>
-                              <Col xs={9}>
+                              <Col xs={8}>
                                 <text className="frame9-update1-text">
-                                  Latest updates on tax policies and other
-                                  developments
+                                  <text
+                                    style={{
+                                      color: "#302D6D",
+                                      fontWeight: 800,
+                                    }}
+                                  >
+                                    Latest updates
+                                  </text>{" "}
+                                  on tax policies and other developments
                                 </text>
                               </Col>
                             </Row>
@@ -199,68 +215,96 @@ function HomePage() {
                           <Col xs={6}></Col>
                           <Col xs={6}>
                             <Row style={{ margin: 5 }}>
-                              <Col xs={3}>
+                              <Col xs={4}>
                                 <img
                                   alt="frame9-update2-logo"
                                   className="frame9-update1-logo"
                                   src={Frame19}
                                 />
                               </Col>
-                              <Col xs={9}>
+                              <Col xs={8}>
                                 <text className="frame9-update1-text">
-                                  An AI-powered platform with a worldwide
-                                  community
+                                  <text
+                                    style={{
+                                      color: "#302D6D",
+                                      fontWeight: 800,
+                                    }}
+                                  >
+                                    An AI-powered
+                                  </text>{" "}
+                                  platform with a worldwide community
                                 </text>
                               </Col>
                             </Row>
                           </Col>
                           <Col xs={6}>
                             <Row style={{ margin: 5 }}>
-                              <Col xs={3}>
+                              <Col xs={4}>
                                 <img
                                   alt="frame9-update1-logo"
                                   className="frame9-update1-logo"
                                   src={Frame20}
                                 />
                               </Col>
-                              <Col xs={9}>
+                              <Col xs={8}>
                                 <text className="frame9-update1-text">
-                                  Matching individuals and businesses with the
-                                  right CPAs and firms
+                                  <text
+                                    style={{
+                                      color: "#302D6D",
+                                      fontWeight: 800,
+                                    }}
+                                  >
+                                    Matching individuals
+                                  </text>{" "}
+                                  and businesses with the right CPAs and firms
                                 </text>
                               </Col>
                             </Row>
                           </Col>
                           <Col xs={6}>
                             <Row style={{ margin: 5 }}>
-                              <Col xs={3}>
+                              <Col xs={4}>
                                 <img
                                   alt="frame9-update1-logo"
                                   className="frame9-update1-logo"
                                   src={Frame21}
                                 />
                               </Col>
-                              <Col xs={9}>
+                              <Col xs={8}>
                                 <text className="frame9-update1-text">
-                                  NLP funtionality to answer any and all
-                                  tax-related questions
+                                  <text
+                                    style={{
+                                      color: "#302D6D",
+                                      fontWeight: 800,
+                                    }}
+                                  >
+                                    NLP funtionality
+                                  </text>{" "}
+                                  to answer any and all tax-related questions
                                 </text>
                               </Col>
                             </Row>
                           </Col>
                           <Col xs={6}>
                             <Row style={{ margin: 5 }}>
-                              <Col xs={3}>
+                              <Col xs={4}>
                                 <img
                                   alt="frame9-update1-logo"
                                   className="frame9-update1-logo"
                                   src={Frame22}
                                 />
                               </Col>
-                              <Col xs={9}>
+                              <Col xs={8}>
                                 <text className="frame9-update1-text">
-                                  Access to off-shore CPAs ready to support your
-                                  team
+                                  <text
+                                    style={{
+                                      color: "#302D6D",
+                                      fontWeight: 800,
+                                    }}
+                                  >
+                                    NAccess to off-shore CPAs
+                                  </text>{" "}
+                                  ready to support your team
                                 </text>
                               </Col>
                             </Row>
