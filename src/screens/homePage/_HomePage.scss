@@ -1204,7 +1204,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   width: 550px;
   height: 109px;
   left: 820px;
-  top: 372px;
+  top: 412px;
   z-index: 100;
 
   /* H2/Normal */
@@ -1228,7 +1228,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   width: 828px;
   height: 619px;
   margin-left: 30px;
-  top: 372px;
+  top: 352px;
   z-index: 100;
 
   // background: url(Safari 2.jpg);
@@ -1243,8 +1243,8 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 848px;
   height: 668px;
-  left: 640px;
-  top: 464px;
+  left: 700px;
+  top: 500px;
   z-index: 100;
 
   // background: url(Safari 3 Knowledge.jpg);
@@ -1528,7 +1528,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   width: 350px;
   height: 200px;
   left: 990px;
-  top: 1365px;
+  top: 1345px;
 
   background: rgba(0, 101, 87, 0.06);
   border-radius: 25px;
@@ -1598,7 +1598,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 350px;
   height: 200px;
-  left: 450px;
+  left: 430px;
   top: 2037px;
 
   background: rgba(0, 101, 87, 0.06);
@@ -1632,7 +1632,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 350px;
   height: 200px;
-  left: 450px;
+  left: 430px;
   top: 1820px;
 
   background: rgba(0, 101, 87, 0.06);
@@ -1666,7 +1666,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 350px;
   height: 200px;
-  left: 450px;
+  left: 430px;
   top: 1580px;
 
   background: rgba(0, 101, 87, 0.06);
@@ -1701,7 +1701,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   width: 350px;
   height: 200px;
   left: 810px;
-  top: 2214px;
+  top: 2234px;
 
   background: rgba(0, 101, 87, 0.06);
   border-radius: 25px;
@@ -1735,7 +1735,7 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   width: 350px;
   height: 200px;
   left: 1340px;
-  top: 2214px;
+  top: 2234px;
   background: rgba(0, 101, 87, 0.06);
   border-radius: 25px;
 }
@@ -1930,13 +1930,13 @@ Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
   position: absolute;
   width: 610px;
   height: 754px;
-  left: 900px;
-  top: 603px;
+  left: 800px;
+  top: 733px;
   z-index: 1000;
   background: url("../../assets/images/Frame\ 148.png");
   // background: linear-gradient(322.23deg, #262457 1.98%, #008774 95.22%);
   // box-shadow: 0px 45px 119px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.03);
-  backdrop-filter: blur(19px);
+  //backdrop-filter: blur(19px);
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 25px 25px 25px 0px;
