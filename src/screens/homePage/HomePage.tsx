@@ -8,6 +8,7 @@ import quote from "../../assets/images/quote.png";
 import knowledge1 from "../../assets/images/knowledge1.png";
 import knowledge2 from "../../assets/images/knowledge2.png";
 import Item from "../../assets/images/Item.png";
+import Logo1 from "../../assets/images/logo1.svg";
 import Frame20 from "../../assets/images/Frame 20.png";
 import Frame19 from "../../assets/images/Frame 19.png";
 import Frame21 from "../../assets/images/Frame 21.png";
@@ -24,13 +25,31 @@ function HomePage() {
     <PageTemplate>
       {matches && (
         <>
+          <div className="navigation">
+            <img
+              alt="navigation-logo"
+              className="navigation-logo"
+              src={Logo1}
+            />
+            <div className="frame48">
+              <div className="button-div1-nav">
+                <button className="frame48-button1">Log In</button>
+              </div>
+              <div className="button-div2-nav">
+                <button className="frame48-button2">Sign Up</button>
+              </div>
+            </div>
+          </div>
           <Grid
             style={{ flex: 1, overflow: "hidden" }}
             container
             flexDirection="column"
           >
-            <Row className="section1" style={{ display: "flex" }}>
-              <Col xs={12} md={6}>
+            <Row
+              className="section1"
+              style={{ display: "flex", alignItems: "center" }}
+            >
+              <Col xs={12} md={6} style={{ height: "40%" }}>
                 <div className="frame1">
                   <h2 className="frame1-text1">
                     <strong>One platform</strong> for Everything Tax-Related
@@ -57,11 +76,15 @@ function HomePage() {
                   </div>
                 </div>
               </Col>
-              <Col xs={12} md={6}>
+              <Col
+                xs={12}
+                md={6}
+                style={{ alignItems: "center", height: "40%" }}
+              >
                 <img alt="mock-ups" className="mock-ups" src={mockup} />
               </Col>
-              <Col xs={12} md={12}>
-                <div className="destination" style={{ top: matches ? 0 : 140 }}>
+              <Col xs={12} md={12} style={{ alignItems: "flex-start" }}>
+                <div className="destination">
                   <div className="frame130">
                     <h2 className="frame130-text1">
                       №1 Destination for Everything Taxes
@@ -609,10 +632,10 @@ function HomePage() {
             style={{
               zIndex: 8000,
               top: 8400,
-              position:'absolute',
-              left:0,
-              bottom:0,
-              right:0,
+              position: "absolute",
+              left: 0,
+              bottom: 0,
+              right: 0,
               width: "100%",
             }}
           >

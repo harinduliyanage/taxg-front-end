@@ -15,7 +15,7 @@ const PageTemplate = (prop: Props) => {
 			breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs"]}
 			minBreakpoint="xs"
 		>
-			<NavBar />
+			{/* <NavBar /> */}
 			{prop.children}
 			{/* <Footer /> */}
 		</ThemeProvider>
